@@ -1,0 +1,2080 @@
+return_id,order_item_id,return_date,return_reason,refund_amount,return_status
+1,21,2022-02-16,Wrong Item,474.69,Approved
+2,27,2025-01-11,Changed Mind,822.36,Approved
+3,36,2022-08-01,Damaged,43.72,Approved
+4,39,2023-10-17,Not as Described,512.58,Approved
+5,54,2025-05-21,Changed Mind,245.27,Approved
+6,59,2022-11-24,Wrong Item,258.96,Approved
+7,61,2022-02-18,Late Delivery,191.52,Approved
+8,95,2023-12-20,Damaged,1182.12,Rejected
+9,99,2023-07-02,Damaged,431.42,Approved
+10,176,2025-03-22,Damaged,247.5,Rejected
+11,195,2023-01-29,Changed Mind,96.4,Rejected
+12,247,2025-11-26,Wrong Item,199.78,Approved
+13,262,2024-06-23,Wrong Item,686.13,Approved
+14,347,2026-01-28,Changed Mind,599.85,Approved
+15,395,2025-10-22,Damaged,309.08,Rejected
+16,426,2024-12-15,Changed Mind,365.91,Rejected
+17,428,2024-12-19,Changed Mind,1333.21,Approved
+18,429,2024-04-18,Changed Mind,300.35,Rejected
+19,435,2023-01-08,Wrong Item,219.9,Rejected
+20,459,2025-12-09,Wrong Item,337.57,Approved
+21,468,2023-02-16,Not as Described,109.46,Approved
+22,480,2024-09-19,Not as Described,765.44,Rejected
+23,489,2022-01-14,Not as Described,1084.76,Approved
+24,495,2022-07-05,Not as Described,440.44,Approved
+25,507,2022-02-15,Changed Mind,16.33,Rejected
+26,509,2022-02-20,Not as Described,64.42,Rejected
+27,513,2025-03-15,Late Delivery,514.03,Approved
+28,518,2025-06-24,Damaged,163.01,Approved
+29,542,2023-12-18,Changed Mind,490.26,Approved
+30,567,2024-01-20,Late Delivery,1431.8,Approved
+31,582,2022-06-13,Wrong Item,177.38,Approved
+32,611,2024-08-16,Wrong Item,274.0,Approved
+33,624,2022-10-16,Wrong Item,377.57,Approved
+34,637,2025-12-05,Wrong Item,124.7,Approved
+35,673,2025-12-04,Not as Described,390.63,Approved
+36,683,2022-03-11,Changed Mind,191.03,Rejected
+37,685,2025-06-09,Wrong Item,81.4,Rejected
+38,693,2024-12-23,Damaged,276.61,Approved
+39,705,2022-11-21,Wrong Item,200.82,Approved
+40,723,2025-08-25,Not as Described,217.17,Approved
+41,728,2022-07-03,Damaged,307.94,Approved
+42,731,2023-11-27,Changed Mind,604.39,Approved
+43,741,2022-11-08,Wrong Item,625.44,Approved
+44,748,2024-06-03,Changed Mind,171.51,Approved
+45,772,2023-09-12,Changed Mind,278.27,Approved
+46,774,2026-01-25,Damaged,291.12,Approved
+47,779,2023-08-09,Wrong Item,105.99,Approved
+48,807,2025-12-12,Not as Described,236.13,Rejected
+49,818,2025-06-03,Changed Mind,519.28,Approved
+50,855,2025-06-21,Changed Mind,540.08,Approved
+51,869,2025-01-24,Changed Mind,83.32,Rejected
+52,902,2022-08-14,Not as Described,294.46,Approved
+53,903,2024-07-03,Changed Mind,518.46,Approved
+54,905,2022-05-02,Damaged,693.58,Approved
+55,911,2024-03-28,Wrong Item,2076.45,Rejected
+56,925,2022-04-01,Damaged,486.84,Rejected
+57,939,2022-03-15,Damaged,270.83,Approved
+58,947,2024-05-10,Wrong Item,32.05,Rejected
+59,974,2024-12-29,Not as Described,299.36,Approved
+60,980,2022-01-24,Not as Described,482.06,Rejected
+61,993,2023-03-31,Not as Described,802.61,Approved
+62,1088,2022-12-30,Late Delivery,325.78,Approved
+63,1109,2024-10-28,Not as Described,582.08,Approved
+64,1130,2025-09-06,Changed Mind,176.79,Approved
+65,1153,2025-07-14,Changed Mind,42.59,Approved
+66,1183,2024-03-27,Changed Mind,160.27,Rejected
+67,1211,2022-03-16,Damaged,439.79,Rejected
+68,1212,2024-02-01,Damaged,232.31,Approved
+69,1216,2024-08-10,Damaged,557.75,Approved
+70,1258,2023-07-09,Damaged,100.59,Approved
+71,1284,2023-07-01,Damaged,74.17,Approved
+72,1286,2025-09-27,Changed Mind,276.67,Approved
+73,1296,2023-10-03,Changed Mind,408.75,Rejected
+74,1298,2022-12-16,Not as Described,88.9,Rejected
+75,1307,2022-03-01,Not as Described,36.75,Approved
+76,1311,2024-08-25,Changed Mind,152.1,Approved
+77,1324,2025-03-29,Wrong Item,178.47,Approved
+78,1328,2025-01-10,Changed Mind,511.94,Approved
+79,1329,2023-01-06,Not as Described,58.51,Approved
+80,1331,2023-01-01,Not as Described,149.86,Approved
+81,1341,2022-11-18,Not as Described,761.81,Approved
+82,1395,2022-12-16,Changed Mind,1205.69,Rejected
+83,1400,2025-05-16,Changed Mind,329.37,Approved
+84,1469,2024-12-15,Changed Mind,69.69,Approved
+85,1471,2024-10-25,Not as Described,1676.3,Rejected
+86,1489,2024-08-29,Wrong Item,391.01,Approved
+87,1491,2025-11-12,Damaged,165.61,Approved
+88,1501,2024-12-12,Damaged,813.62,Approved
+89,1538,2025-08-30,Changed Mind,294.79,Approved
+90,1545,2024-05-07,Changed Mind,1521.95,Approved
+91,1611,2025-02-16,Damaged,733.78,Rejected
+92,1624,2025-06-30,Not as Described,33.91,Rejected
+93,1651,2025-03-25,Late Delivery,154.74,Approved
+94,1659,2023-01-12,Not as Described,377.11,Approved
+95,1662,2023-02-20,Not as Described,1959.72,Approved
+96,1687,2024-06-28,Changed Mind,501.87,Rejected
+97,1690,2024-12-18,Damaged,83.76,Approved
+98,1709,2025-11-25,Late Delivery,427.75,Rejected
+99,1728,2022-04-07,Damaged,315.15,Rejected
+100,1773,2022-09-19,Not as Described,1588.12,Rejected
+101,1810,2023-09-14,Not as Described,138.25,Approved
+102,1822,2022-09-18,Damaged,148.65,Rejected
+103,1835,2023-12-04,Not as Described,264.5,Rejected
+104,1885,2025-01-10,Not as Described,132.15,Approved
+105,1889,2025-07-28,Changed Mind,98.94,Approved
+106,1923,2023-01-24,Changed Mind,799.67,Rejected
+107,1943,2022-12-28,Damaged,667.35,Rejected
+108,1965,2024-06-04,Not as Described,755.24,Approved
+109,2005,2023-11-22,Not as Described,38.6,Approved
+110,2014,2022-08-06,Wrong Item,791.89,Rejected
+111,2017,2023-12-19,Damaged,88.08,Approved
+112,2100,2025-11-03,Not as Described,894.97,Rejected
+113,2115,2023-11-29,Damaged,204.01,Approved
+114,2119,2024-12-04,Not as Described,1406.64,Approved
+115,2132,2025-06-22,Changed Mind,401.64,Approved
+116,2134,2024-08-28,Changed Mind,837.43,Rejected
+117,2143,2024-12-01,Damaged,843.08,Approved
+118,2170,2024-05-25,Damaged,323.56,Approved
+119,2177,2022-11-27,Not as Described,562.83,Approved
+120,2219,2024-08-10,Damaged,112.68,Rejected
+121,2263,2022-07-01,Damaged,1542.5,Rejected
+122,2290,2023-05-29,Wrong Item,780.76,Rejected
+123,2297,2023-09-07,Damaged,238.25,Approved
+124,2301,2023-04-26,Not as Described,365.65,Approved
+125,2309,2025-04-23,Late Delivery,162.32,Approved
+126,2354,2022-10-08,Late Delivery,69.31,Rejected
+127,2379,2023-09-16,Damaged,766.9,Approved
+128,2417,2025-09-01,Changed Mind,228.61,Approved
+129,2420,2022-06-20,Changed Mind,124.33,Approved
+130,2431,2023-09-09,Changed Mind,542.0,Approved
+131,2435,2025-08-09,Wrong Item,240.97,Approved
+132,2439,2025-11-22,Wrong Item,111.29,Approved
+133,2456,2022-12-27,Changed Mind,284.11,Rejected
+134,2479,2025-05-03,Wrong Item,189.08,Approved
+135,2521,2024-12-06,Changed Mind,70.58,Approved
+136,2538,2023-07-11,Changed Mind,954.59,Approved
+137,2539,2023-07-15,Changed Mind,52.54,Approved
+138,2561,2023-05-24,Not as Described,62.83,Rejected
+139,2589,2024-08-19,Wrong Item,155.3,Approved
+140,2592,2024-07-01,Damaged,201.0,Approved
+141,2615,2025-07-22,Changed Mind,357.04,Approved
+142,2623,2025-12-16,Wrong Item,661.77,Approved
+143,2636,2025-08-30,Late Delivery,22.75,Approved
+144,2646,2025-12-04,Changed Mind,958.03,Approved
+145,2650,2026-01-05,Late Delivery,756.7,Approved
+146,2654,2022-11-25,Changed Mind,250.1,Rejected
+147,2665,2025-12-09,Changed Mind,399.57,Rejected
+148,2677,2025-02-11,Changed Mind,389.39,Approved
+149,2707,2022-10-21,Damaged,100.8,Rejected
+150,2710,2022-10-09,Wrong Item,773.41,Approved
+151,2715,2025-09-19,Wrong Item,46.55,Approved
+152,2729,2022-02-08,Changed Mind,1116.75,Rejected
+153,2742,2023-01-11,Not as Described,449.1,Approved
+154,2749,2025-10-07,Damaged,558.83,Approved
+155,2754,2023-01-28,Damaged,54.64,Approved
+156,2769,2025-09-18,Changed Mind,222.84,Rejected
+157,2810,2025-08-04,Changed Mind,16.53,Approved
+158,2867,2022-11-14,Changed Mind,181.52,Approved
+159,2878,2023-08-18,Changed Mind,751.4,Approved
+160,2913,2022-07-12,Changed Mind,384.42,Approved
+161,2921,2024-10-12,Changed Mind,70.01,Rejected
+162,2936,2023-05-29,Changed Mind,700.06,Rejected
+163,2940,2025-09-14,Changed Mind,349.6,Rejected
+164,2952,2024-01-31,Wrong Item,306.6,Rejected
+165,2988,2022-11-14,Not as Described,1324.01,Rejected
+166,3023,2022-02-04,Changed Mind,117.89,Approved
+167,3024,2022-01-27,Late Delivery,686.04,Approved
+168,3044,2022-08-31,Not as Described,375.92,Approved
+169,3080,2024-01-26,Wrong Item,1494.27,Approved
+170,3102,2024-10-24,Wrong Item,30.23,Rejected
+171,3135,2023-09-09,Damaged,206.72,Rejected
+172,3158,2023-03-19,Not as Described,469.0,Approved
+173,3181,2024-01-21,Late Delivery,204.97,Approved
+174,3187,2023-06-26,Changed Mind,1543.45,Approved
+175,3217,2022-10-13,Wrong Item,1297.46,Approved
+176,3250,2022-08-21,Late Delivery,733.43,Rejected
+177,3258,2024-02-10,Changed Mind,185.43,Approved
+178,3295,2022-01-22,Not as Described,434.03,Approved
+179,3312,2022-08-08,Changed Mind,989.62,Approved
+180,3329,2025-12-02,Wrong Item,429.33,Approved
+181,3372,2023-10-29,Late Delivery,652.17,Rejected
+182,3380,2023-12-27,Not as Described,643.2,Approved
+183,3403,2023-11-10,Late Delivery,14.3,Rejected
+184,3456,2023-11-03,Changed Mind,216.51,Approved
+185,3463,2022-04-09,Wrong Item,160.93,Approved
+186,3473,2024-11-09,Late Delivery,817.33,Approved
+187,3475,2022-05-25,Changed Mind,1277.15,Rejected
+188,3489,2025-04-01,Changed Mind,487.27,Approved
+189,3497,2025-07-05,Changed Mind,145.91,Approved
+190,3562,2025-10-07,Changed Mind,738.73,Approved
+191,3564,2024-05-23,Damaged,146.92,Approved
+192,3567,2024-06-03,Late Delivery,727.19,Approved
+193,3590,2024-05-19,Changed Mind,228.54,Approved
+194,3641,2025-10-11,Changed Mind,554.37,Approved
+195,3665,2023-05-27,Late Delivery,444.45,Rejected
+196,3693,2023-01-07,Changed Mind,604.01,Approved
+197,3716,2025-04-06,Changed Mind,261.9,Approved
+198,3719,2022-06-26,Changed Mind,434.92,Approved
+199,3726,2025-08-22,Not as Described,316.4,Rejected
+200,3747,2022-08-28,Damaged,1070.13,Rejected
+201,3754,2024-01-17,Changed Mind,96.4,Approved
+202,3762,2023-12-06,Wrong Item,1317.37,Rejected
+203,3797,2025-04-10,Damaged,45.54,Approved
+204,3800,2024-10-16,Changed Mind,373.78,Approved
+205,3819,2024-06-16,Wrong Item,316.3,Approved
+206,3854,2023-02-12,Changed Mind,463.61,Rejected
+207,3872,2022-11-10,Not as Described,197.41,Approved
+208,3883,2025-08-08,Not as Described,155.46,Rejected
+209,3916,2023-05-22,Damaged,446.37,Approved
+210,3934,2024-05-20,Not as Described,43.66,Approved
+211,3942,2023-10-13,Changed Mind,980.17,Rejected
+212,3992,2024-03-17,Not as Described,70.66,Approved
+213,4051,2024-07-25,Not as Described,482.38,Rejected
+214,4060,2025-01-14,Late Delivery,92.96,Approved
+215,4071,2025-08-06,Changed Mind,807.79,Approved
+216,4084,2024-12-13,Damaged,384.22,Rejected
+217,4085,2024-12-20,Not as Described,718.41,Approved
+218,4091,2025-10-29,Changed Mind,1540.8,Approved
+219,4119,2025-05-13,Not as Described,358.27,Approved
+220,4127,2025-09-18,Late Delivery,342.51,Approved
+221,4152,2024-12-28,Changed Mind,122.32,Rejected
+222,4154,2024-09-21,Changed Mind,42.76,Rejected
+223,4175,2023-08-12,Late Delivery,151.22,Rejected
+224,4207,2023-09-08,Changed Mind,626.65,Approved
+225,4210,2023-09-08,Wrong Item,76.93,Approved
+226,4216,2025-08-20,Not as Described,201.59,Approved
+227,4231,2022-10-08,Not as Described,89.06,Rejected
+228,4233,2024-12-17,Damaged,2441.46,Approved
+229,4236,2023-08-07,Late Delivery,490.93,Rejected
+230,4237,2024-12-09,Not as Described,1075.94,Approved
+231,4240,2022-08-02,Wrong Item,80.93,Approved
+232,4288,2025-03-20,Not as Described,37.52,Approved
+233,4302,2024-05-12,Not as Described,108.83,Rejected
+234,4323,2022-10-21,Late Delivery,2331.05,Approved
+235,4327,2022-11-04,Not as Described,48.17,Approved
+236,4340,2024-03-09,Not as Described,187.51,Rejected
+237,4382,2023-02-16,Damaged,58.43,Approved
+238,4392,2024-06-26,Wrong Item,529.06,Approved
+239,4396,2024-07-05,Changed Mind,320.79,Rejected
+240,4411,2025-03-13,Changed Mind,290.12,Approved
+241,4412,2025-02-28,Not as Described,342.52,Approved
+242,4456,2022-08-09,Changed Mind,259.91,Approved
+243,4465,2025-02-11,Not as Described,670.66,Rejected
+244,4466,2024-12-02,Damaged,92.29,Approved
+245,4472,2024-05-30,Not as Described,56.42,Approved
+246,4523,2023-11-12,Late Delivery,1160.04,Approved
+247,4552,2023-11-01,Damaged,148.69,Approved
+248,4596,2023-06-28,Wrong Item,373.96,Approved
+249,4598,2023-07-01,Wrong Item,28.05,Approved
+250,4602,2024-01-28,Wrong Item,506.87,Approved
+251,4673,2024-01-01,Not as Described,286.24,Approved
+252,4722,2023-11-15,Damaged,284.27,Approved
+253,4732,2025-02-16,Changed Mind,207.84,Approved
+254,4748,2024-08-22,Damaged,1744.03,Approved
+255,4757,2024-09-17,Late Delivery,643.64,Approved
+256,4778,2022-07-03,Late Delivery,173.84,Rejected
+257,4794,2024-09-30,Changed Mind,910.97,Approved
+258,4843,2026-01-07,Changed Mind,262.35,Approved
+259,4879,2022-04-25,Not as Described,258.09,Approved
+260,4891,2025-07-26,Changed Mind,424.2,Rejected
+261,4957,2022-07-09,Damaged,865.03,Approved
+262,4967,2025-05-12,Not as Described,230.83,Approved
+263,4974,2026-01-17,Damaged,318.69,Rejected
+264,4977,2024-09-03,Not as Described,137.23,Approved
+265,5022,2023-12-27,Not as Described,245.47,Rejected
+266,5036,2024-12-04,Late Delivery,184.7,Approved
+267,5042,2025-11-20,Wrong Item,1136.0,Approved
+268,5062,2022-07-29,Damaged,82.86,Approved
+269,5063,2022-07-16,Late Delivery,170.51,Approved
+270,5068,2024-12-03,Not as Described,117.92,Rejected
+271,5106,2022-06-04,Not as Described,79.26,Approved
+272,5119,2022-07-05,Changed Mind,1689.42,Approved
+273,5141,2025-11-12,Wrong Item,766.15,Approved
+274,5144,2025-11-25,Damaged,90.06,Approved
+275,5147,2023-08-02,Damaged,476.58,Approved
+276,5148,2023-07-22,Changed Mind,83.81,Approved
+277,5161,2025-07-12,Late Delivery,479.16,Approved
+278,5165,2024-08-18,Damaged,215.52,Approved
+279,5211,2025-06-11,Late Delivery,539.16,Approved
+280,5250,2022-08-11,Damaged,893.48,Approved
+281,5257,2025-02-07,Wrong Item,157.72,Rejected
+282,5290,2022-12-06,Wrong Item,230.27,Approved
+283,5294,2025-09-22,Wrong Item,71.07,Rejected
+284,5347,2023-04-28,Damaged,102.11,Approved
+285,5348,2023-04-28,Not as Described,1260.46,Rejected
+286,5362,2024-12-14,Changed Mind,245.0,Approved
+287,5376,2026-01-13,Not as Described,135.71,Approved
+288,5393,2024-02-05,Changed Mind,426.56,Approved
+289,5397,2024-02-01,Changed Mind,463.33,Approved
+290,5402,2022-03-06,Changed Mind,179.6,Approved
+291,5404,2022-03-12,Changed Mind,170.79,Approved
+292,5421,2023-06-17,Changed Mind,1037.45,Rejected
+293,5456,2022-04-14,Wrong Item,35.33,Approved
+294,5475,2023-03-26,Damaged,105.71,Rejected
+295,5489,2024-05-03,Damaged,791.4,Rejected
+296,5503,2025-09-09,Wrong Item,79.44,Approved
+297,5547,2025-12-13,Changed Mind,1587.53,Approved
+298,5548,2025-11-30,Changed Mind,1018.65,Rejected
+299,5563,2024-06-26,Late Delivery,105.61,Approved
+300,5575,2022-11-07,Damaged,126.75,Rejected
+301,5595,2025-08-14,Wrong Item,377.69,Approved
+302,5607,2023-11-12,Wrong Item,348.03,Approved
+303,5611,2025-04-19,Not as Described,288.48,Rejected
+304,5620,2025-06-19,Changed Mind,112.91,Approved
+305,5631,2023-03-01,Changed Mind,733.13,Approved
+306,5646,2025-02-28,Changed Mind,198.14,Approved
+307,5688,2024-12-10,Not as Described,168.35,Approved
+308,5797,2026-01-04,Damaged,266.63,Approved
+309,5817,2025-10-16,Changed Mind,466.3,Approved
+310,5824,2024-04-25,Not as Described,578.54,Approved
+311,5833,2025-12-09,Changed Mind,465.14,Rejected
+312,5836,2024-03-25,Not as Described,715.56,Approved
+313,5839,2023-07-24,Damaged,245.59,Rejected
+314,5850,2022-02-24,Wrong Item,227.32,Approved
+315,5915,2025-11-01,Not as Described,101.15,Rejected
+316,5955,2024-01-20,Not as Described,168.14,Rejected
+317,5956,2024-01-16,Not as Described,570.15,Approved
+318,5966,2025-03-06,Not as Described,341.36,Rejected
+319,5973,2025-04-26,Not as Described,1235.04,Approved
+320,5977,2025-07-04,Not as Described,138.5,Rejected
+321,5986,2025-01-08,Wrong Item,476.28,Rejected
+322,5994,2025-11-21,Damaged,328.18,Rejected
+323,5998,2024-04-16,Wrong Item,80.51,Rejected
+324,6017,2022-01-31,Damaged,371.42,Approved
+325,6065,2024-12-12,Not as Described,171.04,Approved
+326,6073,2024-10-16,Not as Described,509.09,Approved
+327,6081,2023-06-25,Not as Described,197.48,Rejected
+328,6096,2025-08-25,Wrong Item,690.76,Approved
+329,6116,2025-04-17,Changed Mind,278.06,Rejected
+330,6120,2022-03-10,Not as Described,234.29,Approved
+331,6124,2024-09-09,Changed Mind,806.4,Rejected
+332,6148,2025-01-22,Wrong Item,174.01,Approved
+333,6151,2022-08-01,Late Delivery,102.35,Approved
+334,6160,2024-06-05,Not as Described,633.48,Approved
+335,6215,2024-10-06,Late Delivery,437.92,Approved
+336,6222,2025-10-29,Wrong Item,301.45,Rejected
+337,6244,2023-06-27,Wrong Item,117.18,Approved
+338,6248,2022-07-28,Damaged,23.74,Approved
+339,6292,2024-08-23,Not as Described,580.56,Approved
+340,6305,2024-01-05,Wrong Item,450.46,Approved
+341,6332,2022-01-31,Not as Described,39.97,Approved
+342,6349,2024-06-30,Late Delivery,782.66,Approved
+343,6352,2024-07-08,Not as Described,135.29,Approved
+344,6355,2025-08-20,Changed Mind,218.12,Approved
+345,6388,2022-12-13,Changed Mind,239.93,Rejected
+346,6432,2022-09-23,Changed Mind,89.69,Rejected
+347,6454,2025-10-17,Late Delivery,227.57,Approved
+348,6471,2024-02-29,Late Delivery,108.99,Rejected
+349,6478,2025-03-07,Not as Described,126.58,Approved
+350,6490,2023-12-22,Late Delivery,149.97,Approved
+351,6494,2022-10-27,Changed Mind,84.05,Approved
+352,6538,2023-08-01,Changed Mind,303.49,Rejected
+353,6591,2024-08-11,Wrong Item,497.15,Approved
+354,6596,2022-11-06,Not as Described,135.22,Approved
+355,6616,2025-06-02,Damaged,469.67,Approved
+356,6617,2022-08-11,Late Delivery,102.44,Approved
+357,6627,2025-01-01,Damaged,205.6,Approved
+358,6628,2025-01-10,Not as Described,196.43,Approved
+359,6644,2024-03-29,Wrong Item,596.49,Approved
+360,6654,2025-09-17,Damaged,43.59,Approved
+361,6674,2025-10-10,Late Delivery,479.87,Rejected
+362,6709,2025-01-31,Damaged,319.77,Rejected
+363,6721,2023-07-09,Not as Described,775.83,Approved
+364,6734,2023-12-14,Wrong Item,441.77,Rejected
+365,6744,2024-02-23,Wrong Item,71.41,Rejected
+366,6745,2023-05-27,Damaged,469.97,Approved
+367,6750,2026-01-03,Damaged,33.72,Approved
+368,6774,2022-04-13,Late Delivery,256.31,Approved
+369,6776,2023-07-25,Late Delivery,148.78,Approved
+370,6780,2023-01-27,Changed Mind,714.31,Rejected
+371,6788,2024-03-18,Changed Mind,1470.14,Approved
+372,6790,2023-06-04,Not as Described,133.46,Rejected
+373,6830,2022-04-21,Changed Mind,83.01,Rejected
+374,6844,2023-11-04,Changed Mind,438.81,Rejected
+375,6861,2022-03-12,Wrong Item,826.55,Approved
+376,6884,2022-10-04,Late Delivery,184.58,Approved
+377,6908,2024-04-17,Changed Mind,729.51,Approved
+378,6912,2022-11-14,Wrong Item,288.17,Approved
+379,6917,2022-10-03,Damaged,626.4,Rejected
+380,6924,2025-12-09,Changed Mind,232.4,Approved
+381,6925,2025-12-27,Changed Mind,245.46,Approved
+382,6933,2026-01-05,Wrong Item,152.91,Approved
+383,7039,2025-01-19,Changed Mind,416.68,Approved
+384,7041,2022-12-25,Late Delivery,219.12,Approved
+385,7083,2023-12-14,Damaged,480.21,Approved
+386,7084,2024-06-29,Damaged,287.11,Approved
+387,7087,2023-03-14,Not as Described,462.39,Rejected
+388,7096,2022-08-28,Not as Described,1359.19,Approved
+389,7128,2022-12-26,Late Delivery,426.34,Approved
+390,7146,2024-11-18,Not as Described,289.25,Approved
+391,7168,2023-01-12,Changed Mind,182.79,Approved
+392,7179,2022-06-08,Late Delivery,99.85,Approved
+393,7207,2025-06-13,Changed Mind,84.92,Approved
+394,7225,2022-04-07,Late Delivery,477.96,Rejected
+395,7234,2026-01-29,Wrong Item,155.34,Approved
+396,7250,2022-03-09,Damaged,444.98,Approved
+397,7286,2022-11-11,Wrong Item,243.34,Rejected
+398,7302,2024-01-10,Not as Described,119.31,Approved
+399,7305,2022-11-04,Changed Mind,408.04,Approved
+400,7336,2025-12-29,Damaged,895.07,Rejected
+401,7378,2023-06-09,Damaged,245.46,Rejected
+402,7379,2023-06-12,Damaged,70.72,Approved
+403,7380,2023-05-23,Late Delivery,928.36,Approved
+404,7407,2023-01-12,Not as Described,171.23,Approved
+405,7467,2023-03-09,Not as Described,1331.84,Approved
+406,7483,2025-06-17,Damaged,143.06,Approved
+407,7504,2025-04-27,Damaged,24.46,Approved
+408,7507,2024-01-04,Changed Mind,1073.86,Approved
+409,7524,2024-04-29,Damaged,410.3,Rejected
+410,7546,2023-11-24,Damaged,417.75,Approved
+411,7565,2022-08-16,Wrong Item,294.44,Rejected
+412,7573,2022-03-31,Not as Described,28.73,Approved
+413,7578,2022-02-25,Not as Described,579.45,Approved
+414,7608,2025-12-09,Not as Described,284.18,Approved
+415,7619,2024-01-12,Changed Mind,571.45,Approved
+416,7634,2025-05-22,Not as Described,2468.3,Rejected
+417,7642,2022-11-12,Damaged,442.79,Rejected
+418,7643,2022-11-05,Not as Described,569.06,Approved
+419,7648,2025-09-21,Late Delivery,1155.37,Approved
+420,7658,2023-02-16,Changed Mind,192.69,Approved
+421,7664,2022-12-24,Changed Mind,148.55,Approved
+422,7678,2026-01-02,Late Delivery,492.81,Approved
+423,7711,2022-09-28,Damaged,471.2,Rejected
+424,7725,2023-10-11,Not as Described,692.46,Approved
+425,7728,2022-09-09,Changed Mind,240.93,Approved
+426,7755,2023-01-06,Changed Mind,754.48,Rejected
+427,7768,2025-04-03,Changed Mind,392.33,Approved
+428,7779,2022-12-21,Late Delivery,151.55,Rejected
+429,7806,2023-05-26,Not as Described,262.79,Approved
+430,7824,2024-12-12,Not as Described,551.51,Approved
+431,7837,2025-08-14,Changed Mind,21.96,Approved
+432,7840,2025-07-21,Wrong Item,64.31,Approved
+433,7845,2022-08-10,Not as Described,493.86,Approved
+434,7868,2024-01-28,Changed Mind,50.5,Rejected
+435,7877,2023-12-12,Damaged,279.57,Approved
+436,7897,2023-11-14,Not as Described,328.01,Rejected
+437,7911,2023-01-29,Wrong Item,638.6,Rejected
+438,7919,2022-01-22,Wrong Item,1270.2,Approved
+439,7925,2024-01-10,Damaged,652.28,Approved
+440,7941,2023-01-01,Wrong Item,244.52,Approved
+441,7972,2024-10-01,Changed Mind,225.43,Approved
+442,7990,2023-06-29,Changed Mind,1390.78,Approved
+443,8040,2025-12-29,Wrong Item,39.56,Approved
+444,8078,2023-07-08,Damaged,51.15,Approved
+445,8085,2023-05-20,Damaged,603.45,Approved
+446,8107,2022-12-30,Changed Mind,277.13,Approved
+447,8128,2024-11-23,Changed Mind,247.46,Rejected
+448,8166,2025-09-03,Wrong Item,1044.78,Rejected
+449,8190,2024-10-09,Not as Described,76.68,Approved
+450,8230,2025-05-01,Damaged,681.33,Approved
+451,8254,2022-05-03,Not as Described,246.21,Approved
+452,8282,2023-06-11,Wrong Item,485.02,Approved
+453,8285,2024-05-30,Not as Described,518.43,Rejected
+454,8290,2023-12-22,Damaged,131.53,Rejected
+455,8293,2024-08-19,Not as Described,228.98,Approved
+456,8303,2025-08-04,Damaged,17.61,Approved
+457,8309,2024-11-03,Changed Mind,267.33,Approved
+458,8326,2022-07-28,Changed Mind,465.99,Approved
+459,8336,2022-04-20,Not as Described,899.8,Rejected
+460,8348,2022-05-06,Changed Mind,811.26,Approved
+461,8354,2023-12-20,Damaged,239.35,Approved
+462,8363,2022-09-29,Changed Mind,135.74,Approved
+463,8378,2024-06-10,Not as Described,840.11,Rejected
+464,8389,2024-06-07,Late Delivery,95.16,Approved
+465,8395,2025-04-26,Changed Mind,389.99,Rejected
+466,8399,2025-02-12,Damaged,112.51,Approved
+467,8404,2025-05-05,Changed Mind,944.28,Rejected
+468,8458,2024-12-03,Changed Mind,621.56,Approved
+469,8469,2025-07-25,Damaged,438.18,Approved
+470,8488,2024-04-20,Changed Mind,611.36,Rejected
+471,8497,2023-03-13,Changed Mind,101.69,Approved
+472,8508,2025-06-19,Changed Mind,396.43,Approved
+473,8576,2025-12-19,Changed Mind,232.62,Approved
+474,8578,2025-02-16,Damaged,197.72,Rejected
+475,8581,2022-03-19,Not as Described,959.14,Rejected
+476,8594,2025-02-23,Changed Mind,215.9,Approved
+477,8598,2023-05-16,Not as Described,291.41,Rejected
+478,8607,2024-04-19,Not as Described,233.25,Rejected
+479,8609,2025-08-21,Changed Mind,123.02,Rejected
+480,8640,2025-12-22,Damaged,220.93,Rejected
+481,8643,2022-08-20,Changed Mind,31.18,Approved
+482,8662,2023-09-26,Not as Described,240.58,Approved
+483,8666,2025-04-25,Not as Described,385.69,Approved
+484,8754,2025-12-29,Not as Described,374.59,Rejected
+485,8789,2024-08-06,Not as Described,185.14,Rejected
+486,8791,2024-07-20,Not as Described,794.07,Rejected
+487,8803,2023-02-12,Late Delivery,150.82,Approved
+488,8805,2022-12-31,Damaged,659.88,Rejected
+489,8809,2025-09-18,Late Delivery,274.01,Approved
+490,8811,2025-07-11,Changed Mind,105.26,Approved
+491,8850,2022-01-31,Damaged,80.83,Rejected
+492,8851,2022-02-05,Changed Mind,680.53,Approved
+493,8852,2024-02-03,Changed Mind,192.97,Approved
+494,8878,2025-12-01,Not as Described,395.56,Rejected
+495,8883,2025-12-24,Not as Described,839.08,Approved
+496,8894,2023-01-03,Changed Mind,616.78,Rejected
+497,8923,2024-10-25,Wrong Item,122.23,Approved
+498,8943,2023-01-07,Changed Mind,163.69,Approved
+499,8985,2024-07-06,Not as Described,277.33,Approved
+500,9004,2024-10-25,Changed Mind,106.52,Rejected
+501,9022,2023-05-31,Not as Described,40.25,Approved
+502,9067,2025-01-21,Changed Mind,80.14,Approved
+503,9073,2025-07-21,Changed Mind,435.35,Approved
+504,9088,2022-09-18,Wrong Item,740.31,Approved
+505,9096,2022-05-24,Wrong Item,294.15,Approved
+506,9113,2023-12-16,Wrong Item,118.11,Approved
+507,9115,2023-12-31,Damaged,902.22,Approved
+508,9164,2024-05-25,Damaged,149.7,Approved
+509,9186,2022-04-11,Changed Mind,189.69,Rejected
+510,9218,2023-03-16,Changed Mind,98.42,Approved
+511,9220,2023-04-03,Wrong Item,119.69,Approved
+512,9231,2025-02-14,Changed Mind,232.41,Approved
+513,9309,2025-10-29,Damaged,74.8,Approved
+514,9316,2024-01-31,Not as Described,504.1,Rejected
+515,9318,2025-11-24,Damaged,74.78,Rejected
+516,9339,2023-12-12,Not as Described,110.45,Rejected
+517,9350,2025-05-22,Wrong Item,139.3,Approved
+518,9353,2024-03-27,Not as Described,682.73,Rejected
+519,9357,2023-04-13,Late Delivery,182.66,Approved
+520,9399,2023-12-17,Changed Mind,421.57,Rejected
+521,9420,2025-11-05,Changed Mind,163.35,Approved
+522,9422,2025-11-06,Late Delivery,107.34,Approved
+523,9447,2024-04-25,Wrong Item,285.29,Rejected
+524,9490,2025-07-13,Not as Described,464.15,Approved
+525,9503,2025-01-07,Not as Described,212.68,Rejected
+526,9517,2024-06-06,Changed Mind,1417.35,Approved
+527,9535,2024-09-20,Changed Mind,252.34,Approved
+528,9536,2024-09-19,Changed Mind,479.18,Approved
+529,9546,2022-11-13,Not as Described,449.95,Approved
+530,9550,2022-11-26,Changed Mind,810.34,Approved
+531,9554,2025-06-17,Not as Described,103.26,Rejected
+532,9576,2025-07-15,Late Delivery,439.36,Approved
+533,9593,2024-08-11,Damaged,91.88,Rejected
+534,9623,2023-04-21,Wrong Item,1121.81,Rejected
+535,9626,2025-04-30,Not as Described,216.28,Rejected
+536,9632,2025-02-01,Changed Mind,542.74,Approved
+537,9634,2025-01-20,Late Delivery,742.3,Approved
+538,9645,2025-10-31,Damaged,1273.25,Approved
+539,9677,2024-12-30,Late Delivery,284.32,Approved
+540,9697,2022-11-07,Damaged,247.86,Rejected
+541,9737,2023-11-10,Changed Mind,399.2,Approved
+542,9748,2022-10-18,Damaged,245.53,Rejected
+543,9751,2024-11-14,Damaged,310.19,Approved
+544,9761,2023-03-21,Damaged,84.33,Rejected
+545,9788,2022-02-11,Damaged,34.96,Rejected
+546,9803,2025-12-29,Not as Described,1208.37,Approved
+547,9816,2025-10-26,Changed Mind,277.5,Approved
+548,9857,2022-10-24,Not as Described,376.92,Approved
+549,9890,2024-01-24,Damaged,525.44,Rejected
+550,9918,2023-06-03,Not as Described,495.84,Approved
+551,9923,2025-05-05,Changed Mind,283.18,Approved
+552,9963,2022-05-20,Wrong Item,444.21,Approved
+553,9994,2024-05-07,Changed Mind,279.96,Approved
+554,10023,2023-04-05,Changed Mind,219.81,Approved
+555,10036,2023-07-13,Damaged,225.12,Approved
+556,10043,2023-04-30,Not as Described,471.02,Approved
+557,10109,2023-03-01,Damaged,605.49,Approved
+558,10114,2023-04-21,Not as Described,230.56,Approved
+559,10122,2023-05-21,Not as Described,504.3,Approved
+560,10134,2023-12-25,Not as Described,1295.72,Rejected
+561,10167,2024-11-09,Damaged,1253.28,Rejected
+562,10190,2024-08-13,Changed Mind,338.57,Approved
+563,10225,2023-02-05,Damaged,179.09,Rejected
+564,10236,2023-03-03,Damaged,271.35,Rejected
+565,10237,2022-08-23,Changed Mind,197.9,Approved
+566,10248,2023-02-12,Changed Mind,183.73,Approved
+567,10264,2022-04-27,Damaged,152.21,Approved
+568,10270,2025-06-14,Not as Described,556.99,Approved
+569,10280,2024-07-28,Changed Mind,886.01,Approved
+570,10300,2024-01-08,Damaged,851.78,Approved
+571,10310,2023-11-09,Changed Mind,1047.61,Approved
+572,10339,2023-11-01,Changed Mind,249.1,Rejected
+573,10348,2025-12-05,Changed Mind,189.34,Rejected
+574,10349,2025-11-11,Not as Described,171.0,Approved
+575,10381,2022-04-30,Changed Mind,209.56,Approved
+576,10404,2023-01-23,Late Delivery,1161.26,Rejected
+577,10407,2023-05-09,Damaged,1635.5,Rejected
+578,10452,2024-02-19,Not as Described,326.98,Approved
+579,10466,2022-07-07,Damaged,273.17,Rejected
+580,10469,2023-06-20,Not as Described,526.72,Approved
+581,10481,2024-11-12,Changed Mind,53.58,Approved
+582,10490,2022-10-13,Damaged,94.23,Approved
+583,10500,2024-11-22,Not as Described,419.45,Approved
+584,10501,2024-11-08,Not as Described,1120.69,Approved
+585,10504,2025-08-28,Wrong Item,252.52,Approved
+586,10517,2025-10-20,Damaged,333.39,Approved
+587,10540,2022-12-05,Changed Mind,386.75,Rejected
+588,10569,2025-12-07,Damaged,201.5,Approved
+589,10575,2023-03-11,Changed Mind,410.04,Approved
+590,10592,2023-07-16,Changed Mind,422.26,Rejected
+591,10594,2023-07-31,Damaged,768.45,Approved
+592,10595,2024-08-10,Not as Described,127.32,Rejected
+593,10598,2024-08-15,Damaged,118.77,Approved
+594,10621,2023-10-16,Damaged,904.89,Rejected
+595,10631,2023-01-26,Not as Described,45.99,Approved
+596,10644,2025-12-16,Changed Mind,333.24,Approved
+597,10646,2024-05-06,Changed Mind,349.98,Rejected
+598,10647,2025-02-24,Changed Mind,521.59,Approved
+599,10656,2024-01-07,Not as Described,297.85,Approved
+600,10664,2024-11-03,Changed Mind,184.78,Approved
+601,10665,2025-03-15,Not as Described,439.68,Approved
+602,10683,2024-09-13,Wrong Item,1366.58,Rejected
+603,10694,2026-01-11,Damaged,27.8,Approved
+604,10700,2024-04-12,Damaged,569.58,Approved
+605,10751,2023-06-08,Changed Mind,746.26,Rejected
+606,10752,2024-02-14,Not as Described,302.47,Approved
+607,10792,2023-06-04,Changed Mind,1173.15,Approved
+608,10813,2022-08-22,Changed Mind,31.03,Approved
+609,10833,2022-10-02,Damaged,134.85,Approved
+610,10838,2024-05-19,Changed Mind,634.87,Rejected
+611,10841,2024-05-23,Changed Mind,279.04,Approved
+612,10860,2024-10-12,Damaged,36.62,Rejected
+613,10883,2024-09-05,Changed Mind,95.65,Rejected
+614,10907,2022-03-22,Changed Mind,237.42,Approved
+615,10908,2023-02-13,Damaged,313.53,Rejected
+616,10918,2023-09-21,Damaged,105.07,Rejected
+617,10920,2025-08-01,Not as Described,125.97,Approved
+618,10956,2023-10-24,Wrong Item,51.1,Approved
+619,10958,2023-11-06,Not as Described,84.2,Approved
+620,10960,2023-10-20,Not as Described,472.46,Approved
+621,10965,2025-02-22,Late Delivery,860.99,Approved
+622,10970,2023-04-30,Not as Described,1136.08,Approved
+623,11025,2025-03-27,Not as Described,77.66,Approved
+624,11030,2025-07-17,Not as Described,624.61,Rejected
+625,11120,2022-06-26,Not as Described,856.84,Rejected
+626,11123,2025-11-02,Wrong Item,194.69,Approved
+627,11149,2023-05-10,Wrong Item,298.74,Approved
+628,11150,2023-05-02,Not as Described,1630.74,Approved
+629,11156,2023-07-22,Late Delivery,261.56,Rejected
+630,11160,2025-08-01,Changed Mind,147.66,Rejected
+631,11174,2022-08-20,Not as Described,25.69,Rejected
+632,11192,2024-01-18,Changed Mind,599.59,Approved
+633,11208,2024-10-08,Late Delivery,201.82,Approved
+634,11225,2022-02-12,Not as Described,593.87,Approved
+635,11246,2022-07-28,Changed Mind,527.63,Approved
+636,11257,2022-12-22,Wrong Item,1211.71,Approved
+637,11268,2024-08-11,Wrong Item,481.11,Approved
+638,11272,2025-10-02,Wrong Item,355.37,Approved
+639,11280,2025-06-29,Not as Described,297.74,Approved
+640,11284,2023-12-12,Not as Described,207.21,Approved
+641,11296,2022-12-20,Changed Mind,292.33,Approved
+642,11321,2024-06-18,Late Delivery,30.43,Approved
+643,11355,2022-04-03,Changed Mind,589.49,Approved
+644,11380,2025-10-04,Changed Mind,380.49,Approved
+645,11406,2023-10-20,Not as Described,774.24,Rejected
+646,11414,2022-06-08,Damaged,65.7,Rejected
+647,11419,2023-08-07,Changed Mind,119.14,Approved
+648,11447,2025-03-15,Changed Mind,2788.72,Rejected
+649,11456,2024-09-17,Damaged,113.93,Approved
+650,11502,2024-10-16,Damaged,882.51,Rejected
+651,11505,2025-07-16,Changed Mind,440.06,Approved
+652,11523,2022-04-10,Late Delivery,196.26,Approved
+653,11533,2023-04-17,Changed Mind,451.76,Approved
+654,11536,2023-05-06,Changed Mind,178.73,Rejected
+655,11542,2025-03-07,Damaged,287.78,Approved
+656,11587,2023-05-22,Late Delivery,183.05,Approved
+657,11606,2024-05-23,Not as Described,856.83,Rejected
+658,11612,2023-07-17,Late Delivery,266.8,Rejected
+659,11622,2025-09-23,Damaged,636.42,Approved
+660,11636,2023-09-18,Not as Described,919.75,Rejected
+661,11684,2025-12-07,Late Delivery,727.51,Approved
+662,11692,2024-05-17,Not as Described,274.43,Approved
+663,11706,2023-12-12,Changed Mind,494.84,Rejected
+664,11707,2022-06-04,Late Delivery,471.31,Approved
+665,11737,2024-12-08,Changed Mind,173.95,Approved
+666,11746,2022-12-13,Changed Mind,112.52,Approved
+667,11757,2023-08-22,Not as Described,438.8,Approved
+668,11776,2025-11-07,Changed Mind,85.93,Rejected
+669,11782,2024-12-04,Wrong Item,550.01,Approved
+670,11784,2025-12-04,Wrong Item,1057.21,Rejected
+671,11799,2022-05-26,Wrong Item,986.76,Rejected
+672,11836,2025-01-22,Not as Described,273.26,Approved
+673,11837,2025-01-20,Late Delivery,296.86,Approved
+674,11838,2025-01-27,Not as Described,1097.94,Rejected
+675,11866,2024-06-29,Changed Mind,828.55,Approved
+676,11878,2023-07-28,Damaged,128.84,Rejected
+677,11879,2023-08-12,Late Delivery,269.26,Approved
+678,11880,2022-04-18,Changed Mind,602.86,Rejected
+679,11881,2024-04-29,Changed Mind,188.46,Rejected
+680,11929,2025-08-29,Not as Described,46.12,Approved
+681,11931,2022-11-10,Changed Mind,356.86,Approved
+682,11943,2023-05-28,Damaged,29.8,Approved
+683,12023,2023-09-17,Late Delivery,416.6,Rejected
+684,12027,2024-01-15,Damaged,192.56,Approved
+685,12036,2023-11-05,Wrong Item,807.57,Approved
+686,12040,2023-01-01,Damaged,1332.0,Rejected
+687,12046,2024-09-04,Changed Mind,108.19,Rejected
+688,12048,2022-10-24,Changed Mind,417.18,Approved
+689,12067,2022-04-30,Damaged,488.84,Rejected
+690,12083,2024-10-14,Wrong Item,123.49,Approved
+691,12101,2023-08-13,Damaged,163.4,Approved
+692,12102,2023-08-04,Changed Mind,168.54,Approved
+693,12111,2025-10-31,Changed Mind,98.0,Approved
+694,12190,2025-06-24,Changed Mind,396.13,Approved
+695,12223,2024-10-25,Not as Described,400.19,Approved
+696,12225,2024-10-28,Not as Described,268.13,Approved
+697,12233,2024-10-16,Changed Mind,243.8,Rejected
+698,12248,2022-03-30,Damaged,235.67,Approved
+699,12255,2022-11-08,Not as Described,113.89,Rejected
+700,12346,2024-11-22,Changed Mind,66.13,Approved
+701,12363,2025-09-25,Damaged,183.73,Approved
+702,12422,2022-06-27,Not as Described,275.07,Approved
+703,12435,2024-08-19,Wrong Item,101.23,Approved
+704,12463,2025-12-08,Damaged,386.93,Approved
+705,12492,2022-06-05,Damaged,142.57,Rejected
+706,12512,2023-05-30,Wrong Item,457.36,Approved
+707,12547,2025-12-01,Not as Described,222.65,Approved
+708,12553,2024-07-08,Changed Mind,318.22,Rejected
+709,12566,2024-01-04,Changed Mind,346.81,Approved
+710,12569,2024-01-07,Changed Mind,1369.93,Approved
+711,12582,2025-06-29,Changed Mind,789.06,Approved
+712,12587,2023-12-23,Changed Mind,808.71,Approved
+713,12594,2022-09-19,Changed Mind,87.14,Approved
+714,12641,2025-08-23,Changed Mind,116.65,Approved
+715,12716,2025-11-19,Damaged,1611.81,Rejected
+716,12844,2023-08-17,Changed Mind,127.3,Rejected
+717,12877,2022-07-19,Not as Described,523.63,Rejected
+718,12892,2024-09-27,Not as Described,394.74,Approved
+719,12927,2022-08-25,Not as Described,65.17,Approved
+720,12952,2025-01-03,Changed Mind,451.04,Approved
+721,12953,2024-12-13,Not as Described,191.22,Rejected
+722,12968,2023-02-01,Damaged,256.77,Approved
+723,12976,2024-03-02,Not as Described,164.79,Approved
+724,13001,2024-05-22,Changed Mind,407.75,Approved
+725,13017,2024-08-09,Not as Described,675.83,Approved
+726,13035,2022-12-26,Not as Described,845.61,Approved
+727,13047,2023-08-24,Late Delivery,434.15,Approved
+728,13053,2022-12-16,Damaged,176.55,Rejected
+729,13061,2022-12-15,Damaged,582.78,Approved
+730,13082,2022-08-23,Changed Mind,188.21,Rejected
+731,13102,2023-08-18,Late Delivery,252.4,Rejected
+732,13103,2023-05-03,Wrong Item,221.24,Approved
+733,13109,2022-05-14,Changed Mind,349.79,Rejected
+734,13164,2024-11-05,Late Delivery,376.17,Approved
+735,13170,2022-11-17,Not as Described,132.15,Rejected
+736,13202,2023-08-11,Wrong Item,84.08,Approved
+737,13219,2022-09-02,Not as Described,96.47,Approved
+738,13228,2024-08-21,Not as Described,1405.11,Approved
+739,13257,2022-04-15,Late Delivery,470.89,Approved
+740,13277,2024-06-20,Wrong Item,241.63,Rejected
+741,13283,2022-06-16,Changed Mind,1609.87,Approved
+742,13324,2025-08-06,Changed Mind,256.32,Approved
+743,13328,2025-03-07,Damaged,249.55,Approved
+744,13348,2025-10-04,Changed Mind,971.48,Approved
+745,13380,2024-03-14,Late Delivery,389.68,Rejected
+746,13407,2025-06-09,Damaged,235.12,Approved
+747,13454,2024-08-30,Damaged,24.62,Approved
+748,13458,2023-06-25,Not as Described,273.64,Rejected
+749,13471,2024-11-05,Not as Described,943.97,Rejected
+750,13478,2023-05-05,Changed Mind,503.81,Rejected
+751,13494,2026-01-30,Wrong Item,76.73,Approved
+752,13496,2024-03-21,Damaged,353.24,Approved
+753,13525,2024-08-07,Changed Mind,161.35,Approved
+754,13568,2022-12-13,Changed Mind,69.18,Approved
+755,13597,2025-11-22,Changed Mind,185.45,Rejected
+756,13600,2022-11-03,Damaged,113.9,Rejected
+757,13601,2022-11-22,Wrong Item,746.93,Rejected
+758,13604,2022-08-27,Changed Mind,215.14,Rejected
+759,13617,2025-09-13,Damaged,320.01,Approved
+760,13669,2023-11-19,Damaged,160.72,Rejected
+761,13752,2022-11-22,Changed Mind,781.15,Rejected
+762,13802,2024-06-25,Wrong Item,804.43,Approved
+763,13842,2025-09-15,Wrong Item,77.45,Approved
+764,13858,2022-09-03,Wrong Item,572.84,Approved
+765,13866,2022-05-22,Changed Mind,279.33,Approved
+766,13924,2022-12-07,Changed Mind,1075.88,Approved
+767,13939,2025-05-20,Late Delivery,273.83,Approved
+768,13948,2024-04-15,Wrong Item,971.44,Approved
+769,13951,2024-04-13,Damaged,208.88,Approved
+770,13981,2025-09-07,Changed Mind,94.77,Approved
+771,13984,2025-12-28,Wrong Item,348.43,Approved
+772,14012,2024-06-26,Late Delivery,143.85,Approved
+773,14017,2024-07-25,Changed Mind,159.51,Rejected
+774,14059,2022-05-02,Late Delivery,159.08,Approved
+775,14080,2026-01-04,Changed Mind,40.95,Rejected
+776,14118,2024-11-16,Changed Mind,114.16,Rejected
+777,14197,2024-08-13,Changed Mind,269.96,Approved
+778,14201,2022-12-11,Changed Mind,67.31,Approved
+779,14227,2023-05-10,Not as Described,613.11,Rejected
+780,14278,2025-04-27,Not as Described,184.52,Approved
+781,14282,2025-08-12,Late Delivery,471.15,Rejected
+782,14293,2025-08-13,Damaged,1217.32,Approved
+783,14298,2022-06-26,Damaged,368.85,Approved
+784,14306,2024-09-17,Changed Mind,178.54,Approved
+785,14319,2023-01-07,Changed Mind,231.15,Rejected
+786,14332,2024-12-11,Changed Mind,304.41,Approved
+787,14341,2022-12-08,Damaged,333.98,Approved
+788,14346,2024-12-26,Not as Described,82.8,Rejected
+789,14371,2022-10-06,Wrong Item,473.9,Approved
+790,14376,2023-04-09,Not as Described,516.78,Approved
+791,14383,2025-06-04,Changed Mind,252.07,Approved
+792,14384,2025-06-19,Wrong Item,238.99,Approved
+793,14390,2022-03-26,Wrong Item,83.98,Approved
+794,14405,2025-07-04,Damaged,71.99,Approved
+795,14419,2024-08-19,Damaged,433.54,Rejected
+796,14425,2022-02-09,Wrong Item,307.69,Rejected
+797,14451,2023-03-15,Late Delivery,125.74,Approved
+798,14454,2025-02-14,Late Delivery,1152.61,Rejected
+799,14510,2023-10-07,Damaged,252.56,Rejected
+800,14511,2023-09-29,Damaged,133.03,Approved
+801,14538,2024-07-07,Late Delivery,200.8,Approved
+802,14541,2022-02-19,Changed Mind,253.95,Rejected
+803,14560,2023-12-02,Not as Described,275.72,Approved
+804,14568,2022-08-29,Wrong Item,696.57,Approved
+805,14576,2024-06-24,Changed Mind,57.97,Rejected
+806,14577,2024-07-12,Late Delivery,85.05,Approved
+807,14579,2026-01-03,Changed Mind,385.11,Approved
+808,14585,2025-08-04,Damaged,181.6,Approved
+809,14593,2023-05-15,Damaged,588.85,Rejected
+810,14598,2022-11-03,Changed Mind,135.47,Rejected
+811,14677,2023-12-03,Damaged,501.69,Rejected
+812,14720,2024-10-26,Damaged,682.28,Approved
+813,14760,2024-11-30,Wrong Item,227.7,Approved
+814,14770,2025-07-03,Not as Described,665.16,Approved
+815,14782,2022-10-15,Not as Described,1014.83,Approved
+816,14786,2023-11-26,Changed Mind,268.19,Approved
+817,14795,2022-05-18,Changed Mind,330.01,Approved
+818,14802,2024-01-24,Not as Described,799.84,Rejected
+819,14829,2022-10-16,Changed Mind,511.61,Rejected
+820,14832,2023-05-07,Not as Described,165.44,Rejected
+821,14863,2023-10-29,Not as Described,277.95,Rejected
+822,14872,2024-06-11,Damaged,219.4,Approved
+823,14883,2024-03-23,Not as Described,40.23,Rejected
+824,14894,2023-12-12,Changed Mind,273.39,Rejected
+825,14901,2025-08-03,Wrong Item,108.84,Approved
+826,14927,2025-11-14,Changed Mind,136.2,Approved
+827,14943,2023-04-30,Not as Described,535.97,Approved
+828,14980,2023-05-01,Damaged,39.68,Rejected
+829,14986,2023-03-19,Not as Described,235.31,Rejected
+830,14990,2023-08-19,Changed Mind,684.21,Rejected
+831,14991,2022-07-24,Not as Described,396.29,Approved
+832,15008,2023-05-02,Damaged,917.15,Approved
+833,15025,2022-10-10,Damaged,643.03,Approved
+834,15031,2022-05-04,Changed Mind,398.13,Approved
+835,15035,2022-05-31,Changed Mind,742.96,Approved
+836,15044,2023-12-20,Changed Mind,84.31,Approved
+837,15110,2023-06-15,Changed Mind,285.41,Rejected
+838,15120,2026-02-01,Wrong Item,1275.32,Approved
+839,15138,2023-01-05,Changed Mind,233.35,Approved
+840,15146,2025-01-13,Changed Mind,100.58,Approved
+841,15160,2025-02-07,Wrong Item,1050.84,Rejected
+842,15161,2024-07-20,Damaged,426.0,Approved
+843,15164,2023-06-28,Changed Mind,317.96,Approved
+844,15178,2023-03-12,Late Delivery,507.93,Approved
+845,15179,2025-10-06,Damaged,711.77,Approved
+846,15203,2024-07-06,Changed Mind,222.91,Approved
+847,15214,2025-09-18,Not as Described,683.14,Approved
+848,15219,2024-02-18,Damaged,1173.23,Approved
+849,15224,2024-02-09,Not as Described,581.9,Rejected
+850,15261,2022-06-14,Not as Described,15.81,Approved
+851,15271,2024-12-09,Damaged,504.23,Approved
+852,15284,2024-05-14,Damaged,796.96,Rejected
+853,15302,2025-01-20,Damaged,19.89,Approved
+854,15312,2024-01-13,Late Delivery,1122.71,Rejected
+855,15314,2024-01-18,Late Delivery,316.82,Rejected
+856,15336,2025-02-08,Changed Mind,310.56,Rejected
+857,15338,2024-06-25,Changed Mind,285.71,Rejected
+858,15361,2025-10-09,Not as Described,995.48,Approved
+859,15364,2025-07-16,Wrong Item,188.89,Approved
+860,15380,2024-01-07,Changed Mind,166.29,Rejected
+861,15412,2022-10-05,Changed Mind,250.3,Approved
+862,15415,2025-03-01,Not as Described,1111.12,Approved
+863,15421,2022-12-28,Changed Mind,153.68,Rejected
+864,15438,2025-03-23,Damaged,289.01,Approved
+865,15459,2024-11-28,Not as Described,347.28,Rejected
+866,15488,2023-09-19,Wrong Item,235.37,Approved
+867,15489,2024-07-23,Changed Mind,1219.03,Approved
+868,15519,2025-08-27,Damaged,116.89,Approved
+869,15521,2022-11-10,Changed Mind,544.1,Approved
+870,15557,2025-05-12,Not as Described,69.92,Approved
+871,15592,2024-01-07,Damaged,130.11,Rejected
+872,15599,2022-03-27,Damaged,170.95,Approved
+873,15605,2025-04-13,Late Delivery,228.57,Approved
+874,15615,2022-04-03,Not as Described,685.93,Rejected
+875,15648,2023-06-02,Changed Mind,45.93,Rejected
+876,15658,2022-11-23,Not as Described,525.88,Rejected
+877,15662,2022-11-18,Damaged,14.48,Rejected
+878,15693,2023-08-12,Changed Mind,15.77,Rejected
+879,15704,2025-04-28,Wrong Item,391.76,Approved
+880,15724,2023-05-22,Changed Mind,762.3,Approved
+881,15731,2023-05-28,Not as Described,678.69,Approved
+882,15732,2023-05-03,Damaged,107.4,Approved
+883,15735,2023-08-28,Damaged,912.41,Approved
+884,15737,2023-08-30,Not as Described,126.74,Rejected
+885,15740,2025-04-18,Changed Mind,895.9,Rejected
+886,15752,2023-02-06,Damaged,188.04,Approved
+887,15774,2025-01-16,Wrong Item,939.17,Approved
+888,15797,2022-11-16,Wrong Item,86.91,Approved
+889,15801,2022-11-25,Changed Mind,271.2,Rejected
+890,15808,2026-01-03,Not as Described,169.61,Rejected
+891,15814,2022-08-26,Not as Described,688.83,Rejected
+892,15856,2023-07-03,Changed Mind,341.68,Approved
+893,15895,2025-02-03,Damaged,167.0,Approved
+894,15906,2023-12-21,Late Delivery,310.63,Approved
+895,15922,2022-05-11,Damaged,52.7,Approved
+896,15923,2022-05-19,Wrong Item,302.54,Approved
+897,15924,2024-06-02,Changed Mind,186.97,Rejected
+898,15943,2025-12-09,Late Delivery,411.36,Approved
+899,15952,2023-11-15,Damaged,554.44,Approved
+900,15990,2024-12-23,Not as Described,93.16,Approved
+901,15993,2024-12-24,Late Delivery,89.66,Approved
+902,16001,2025-08-16,Changed Mind,721.68,Approved
+903,16022,2022-10-28,Changed Mind,260.06,Approved
+904,16097,2023-07-03,Damaged,216.71,Rejected
+905,16164,2022-02-03,Late Delivery,112.64,Rejected
+906,16187,2022-09-25,Damaged,316.06,Approved
+907,16195,2023-01-14,Changed Mind,175.91,Approved
+908,16202,2023-12-15,Changed Mind,114.85,Approved
+909,16221,2025-10-02,Late Delivery,276.41,Rejected
+910,16257,2022-03-23,Late Delivery,450.77,Rejected
+911,16276,2025-05-05,Not as Described,274.76,Rejected
+912,16282,2024-06-07,Not as Described,144.77,Approved
+913,16291,2022-02-11,Damaged,227.09,Rejected
+914,16297,2024-11-18,Damaged,540.8,Approved
+915,16378,2025-09-24,Damaged,217.28,Approved
+916,16394,2023-11-27,Not as Described,330.02,Approved
+917,16448,2025-07-25,Wrong Item,335.77,Approved
+918,16479,2025-04-19,Not as Described,131.21,Approved
+919,16482,2024-12-31,Late Delivery,67.3,Rejected
+920,16562,2022-07-04,Changed Mind,85.2,Approved
+921,16571,2025-02-21,Changed Mind,107.01,Rejected
+922,16584,2023-12-07,Not as Described,400.1,Rejected
+923,16604,2022-01-28,Wrong Item,129.86,Approved
+924,16612,2023-12-27,Not as Described,126.17,Approved
+925,16617,2022-05-23,Wrong Item,206.45,Approved
+926,16643,2025-03-30,Damaged,400.97,Approved
+927,16653,2022-04-21,Changed Mind,1087.99,Approved
+928,16659,2023-11-11,Not as Described,321.97,Approved
+929,16682,2025-01-21,Not as Described,202.91,Rejected
+930,16689,2022-12-06,Damaged,796.34,Approved
+931,16701,2025-10-25,Wrong Item,79.28,Approved
+932,16720,2024-02-28,Damaged,98.0,Approved
+933,16774,2024-12-31,Not as Described,987.38,Approved
+934,16777,2022-12-27,Changed Mind,332.77,Rejected
+935,16813,2024-09-01,Damaged,389.02,Approved
+936,16829,2025-12-12,Late Delivery,252.27,Approved
+937,16880,2024-07-10,Changed Mind,56.26,Approved
+938,16885,2025-08-13,Not as Described,671.97,Approved
+939,16914,2025-05-03,Wrong Item,248.84,Approved
+940,16931,2025-11-04,Changed Mind,923.15,Rejected
+941,16951,2022-04-24,Late Delivery,55.82,Approved
+942,16974,2025-10-10,Damaged,264.31,Rejected
+943,16980,2022-11-20,Changed Mind,962.62,Rejected
+944,16983,2022-08-31,Changed Mind,245.43,Rejected
+945,16990,2022-09-17,Not as Described,421.57,Approved
+946,17008,2024-11-13,Damaged,105.54,Approved
+947,17095,2025-09-09,Wrong Item,242.83,Rejected
+948,17110,2022-07-09,Damaged,763.08,Approved
+949,17124,2025-12-25,Damaged,284.46,Approved
+950,17125,2026-01-01,Wrong Item,697.47,Approved
+951,17126,2023-02-09,Changed Mind,148.77,Rejected
+952,17137,2022-07-27,Not as Described,282.71,Approved
+953,17143,2024-01-11,Damaged,333.91,Approved
+954,17156,2022-11-17,Not as Described,171.9,Approved
+955,17212,2025-08-12,Not as Described,169.17,Rejected
+956,17215,2025-07-25,Damaged,238.41,Approved
+957,17226,2024-08-06,Not as Described,25.36,Rejected
+958,17228,2022-10-20,Not as Described,579.57,Rejected
+959,17232,2024-04-16,Not as Described,66.47,Rejected
+960,17248,2024-08-13,Not as Described,209.28,Approved
+961,17252,2026-01-06,Not as Described,107.9,Approved
+962,17269,2023-10-17,Changed Mind,1143.7,Rejected
+963,17281,2022-02-12,Damaged,333.35,Approved
+964,17304,2022-05-31,Not as Described,192.96,Rejected
+965,17316,2024-12-05,Changed Mind,236.61,Approved
+966,17324,2025-03-10,Changed Mind,503.26,Rejected
+967,17345,2025-04-02,Damaged,327.91,Approved
+968,17347,2025-04-15,Changed Mind,25.49,Rejected
+969,17358,2022-01-25,Changed Mind,96.62,Approved
+970,17360,2023-07-21,Not as Described,450.55,Approved
+971,17372,2023-04-25,Damaged,98.52,Rejected
+972,17379,2022-03-18,Not as Described,426.63,Approved
+973,17392,2025-08-10,Not as Described,569.87,Approved
+974,17441,2026-01-22,Not as Described,576.34,Approved
+975,17482,2025-07-06,Not as Described,77.8,Approved
+976,17513,2024-09-14,Changed Mind,698.33,Approved
+977,17522,2022-09-26,Damaged,1379.7,Rejected
+978,17540,2023-09-20,Damaged,563.35,Approved
+979,17545,2023-11-26,Not as Described,99.89,Rejected
+980,17546,2025-09-01,Changed Mind,47.2,Rejected
+981,17561,2025-10-31,Late Delivery,433.88,Rejected
+982,17581,2023-07-23,Damaged,282.66,Approved
+983,17632,2023-09-17,Not as Described,103.74,Approved
+984,17653,2023-11-18,Changed Mind,260.0,Approved
+985,17689,2025-12-13,Damaged,375.31,Approved
+986,17722,2023-08-08,Wrong Item,501.26,Approved
+987,17742,2026-01-19,Wrong Item,22.79,Approved
+988,17764,2025-05-22,Not as Described,531.61,Approved
+989,17782,2024-12-19,Late Delivery,109.31,Approved
+990,17783,2025-01-01,Not as Described,245.89,Approved
+991,17798,2025-12-09,Changed Mind,318.89,Approved
+992,17799,2025-11-28,Changed Mind,89.13,Approved
+993,17822,2022-11-15,Not as Described,184.75,Approved
+994,17848,2023-04-26,Damaged,816.06,Approved
+995,17885,2025-09-17,Not as Described,167.12,Approved
+996,17889,2024-07-25,Not as Described,132.11,Approved
+997,17899,2022-10-01,Wrong Item,123.19,Rejected
+998,17901,2024-08-30,Changed Mind,257.87,Approved
+999,17912,2023-07-26,Not as Described,265.67,Approved
+1000,17923,2023-04-04,Late Delivery,94.75,Approved
+1001,17931,2022-01-23,Not as Described,358.07,Rejected
+1002,17945,2024-10-21,Changed Mind,577.15,Approved
+1003,18004,2025-08-19,Not as Described,734.11,Rejected
+1004,18093,2023-10-17,Damaged,106.57,Approved
+1005,18094,2023-09-27,Changed Mind,679.76,Approved
+1006,18107,2024-04-29,Changed Mind,290.42,Approved
+1007,18113,2022-01-29,Changed Mind,253.3,Rejected
+1008,18122,2023-12-10,Not as Described,193.19,Approved
+1009,18138,2025-11-26,Changed Mind,242.07,Rejected
+1010,18170,2024-06-09,Late Delivery,208.63,Rejected
+1011,18199,2025-11-16,Changed Mind,135.9,Rejected
+1012,18270,2024-12-07,Not as Described,428.7,Approved
+1013,18286,2024-08-26,Changed Mind,15.26,Approved
+1014,18291,2022-02-14,Damaged,114.67,Approved
+1015,18343,2022-07-24,Wrong Item,131.72,Rejected
+1016,18350,2023-11-07,Changed Mind,117.74,Rejected
+1017,18365,2023-03-21,Wrong Item,374.77,Approved
+1018,18413,2022-04-01,Wrong Item,194.18,Approved
+1019,18418,2022-12-02,Not as Described,75.29,Rejected
+1020,18426,2026-01-03,Damaged,197.17,Approved
+1021,18439,2023-01-16,Late Delivery,830.82,Approved
+1022,18464,2025-02-15,Late Delivery,258.22,Approved
+1023,18487,2025-02-25,Wrong Item,651.72,Approved
+1024,18559,2022-09-21,Damaged,812.14,Approved
+1025,18573,2024-06-07,Not as Described,233.03,Rejected
+1026,18637,2024-11-02,Damaged,672.75,Approved
+1027,18643,2023-06-29,Damaged,393.87,Approved
+1028,18691,2025-08-29,Late Delivery,243.4,Rejected
+1029,18735,2022-07-01,Wrong Item,234.1,Approved
+1030,18771,2024-04-24,Damaged,251.62,Approved
+1031,18795,2022-08-22,Not as Described,1011.31,Approved
+1032,18798,2024-10-16,Not as Described,1380.46,Approved
+1033,18811,2025-01-13,Not as Described,817.8,Rejected
+1034,18812,2025-01-20,Damaged,40.13,Approved
+1035,18827,2023-09-28,Late Delivery,230.61,Rejected
+1036,18855,2024-08-24,Late Delivery,1206.6,Approved
+1037,18890,2024-07-22,Changed Mind,382.38,Rejected
+1038,18943,2024-02-01,Not as Described,1421.04,Approved
+1039,18944,2023-03-20,Wrong Item,290.83,Rejected
+1040,18956,2023-11-13,Not as Described,509.21,Approved
+1041,18960,2024-11-08,Damaged,50.35,Approved
+1042,18969,2022-05-22,Changed Mind,894.75,Approved
+1043,18976,2023-06-21,Not as Described,822.04,Approved
+1044,18980,2025-02-27,Not as Described,1132.33,Approved
+1045,19008,2024-02-25,Changed Mind,27.06,Approved
+1046,19009,2024-02-25,Damaged,305.49,Approved
+1047,19024,2023-11-01,Damaged,161.92,Approved
+1048,19061,2024-01-09,Wrong Item,694.82,Rejected
+1049,19116,2023-05-09,Not as Described,1876.67,Approved
+1050,19120,2024-05-15,Wrong Item,629.9,Rejected
+1051,19127,2024-07-19,Wrong Item,254.26,Approved
+1052,19133,2022-05-06,Damaged,60.89,Rejected
+1053,19138,2023-05-03,Wrong Item,463.15,Approved
+1054,19140,2022-09-25,Changed Mind,988.72,Approved
+1055,19156,2022-08-08,Not as Described,543.59,Approved
+1056,19162,2025-05-26,Not as Described,104.0,Rejected
+1057,19163,2023-04-22,Changed Mind,522.85,Approved
+1058,19205,2023-08-16,Wrong Item,850.83,Approved
+1059,19213,2023-02-03,Changed Mind,328.52,Rejected
+1060,19215,2023-01-24,Damaged,87.81,Approved
+1061,19217,2024-04-11,Damaged,213.22,Approved
+1062,19224,2025-06-13,Late Delivery,428.93,Rejected
+1063,19263,2023-11-17,Wrong Item,307.91,Approved
+1064,19317,2024-05-08,Damaged,1531.86,Rejected
+1065,19325,2022-02-12,Changed Mind,43.11,Rejected
+1066,19344,2024-02-14,Changed Mind,429.75,Approved
+1067,19357,2023-08-28,Damaged,1347.33,Approved
+1068,19423,2025-09-05,Late Delivery,134.42,Approved
+1069,19429,2024-12-21,Late Delivery,163.61,Approved
+1070,19431,2025-01-03,Damaged,88.56,Approved
+1071,19445,2022-09-10,Not as Described,279.95,Approved
+1072,19446,2022-08-31,Damaged,107.74,Approved
+1073,19479,2025-11-02,Changed Mind,966.37,Approved
+1074,19527,2022-12-26,Not as Described,392.38,Approved
+1075,19539,2024-09-20,Wrong Item,207.64,Approved
+1076,19543,2023-11-21,Changed Mind,227.03,Approved
+1077,19566,2024-05-28,Not as Described,73.32,Approved
+1078,19587,2025-06-28,Not as Described,899.13,Approved
+1079,19591,2024-02-12,Changed Mind,1783.26,Rejected
+1080,19592,2024-02-26,Wrong Item,160.63,Approved
+1081,19645,2026-01-21,Changed Mind,3073.83,Approved
+1082,19668,2024-10-29,Damaged,115.03,Approved
+1083,19676,2024-09-13,Changed Mind,207.35,Rejected
+1084,19707,2025-12-17,Not as Described,457.4,Rejected
+1085,19723,2024-09-03,Changed Mind,364.92,Approved
+1086,19728,2022-12-17,Damaged,175.13,Approved
+1087,19735,2024-11-25,Changed Mind,38.02,Rejected
+1088,19748,2025-08-06,Late Delivery,362.83,Approved
+1089,19798,2022-07-09,Wrong Item,910.29,Approved
+1090,19806,2025-11-24,Changed Mind,211.38,Rejected
+1091,19817,2023-07-21,Changed Mind,1555.99,Rejected
+1092,19845,2025-06-06,Damaged,246.02,Approved
+1093,19863,2023-01-09,Not as Described,249.35,Approved
+1094,19865,2022-05-05,Changed Mind,792.46,Approved
+1095,19870,2025-02-21,Changed Mind,798.74,Rejected
+1096,19937,2024-10-11,Changed Mind,292.25,Rejected
+1097,19940,2025-11-21,Changed Mind,673.15,Approved
+1098,19947,2023-10-29,Not as Described,274.17,Approved
+1099,19993,2022-12-06,Changed Mind,320.61,Approved
+1100,20011,2025-07-29,Changed Mind,399.61,Approved
+1101,20016,2022-04-08,Changed Mind,40.75,Approved
+1102,20017,2022-04-14,Damaged,304.68,Approved
+1103,20046,2024-01-21,Wrong Item,400.72,Approved
+1104,20047,2024-01-21,Changed Mind,1247.8,Rejected
+1105,20061,2022-10-11,Wrong Item,266.19,Approved
+1106,20084,2024-11-09,Changed Mind,107.07,Approved
+1107,20085,2024-11-01,Wrong Item,836.09,Rejected
+1108,20089,2023-08-12,Changed Mind,412.14,Rejected
+1109,20092,2022-11-24,Changed Mind,179.58,Approved
+1110,20103,2025-11-14,Late Delivery,391.92,Rejected
+1111,20139,2024-09-18,Damaged,336.22,Rejected
+1112,20192,2024-12-01,Changed Mind,525.63,Approved
+1113,20231,2024-06-10,Not as Described,331.08,Rejected
+1114,20246,2025-04-23,Damaged,98.66,Approved
+1115,20259,2023-01-04,Not as Described,42.24,Approved
+1116,20262,2022-07-19,Not as Described,206.84,Approved
+1117,20266,2025-01-03,Late Delivery,617.97,Rejected
+1118,20268,2022-08-02,Late Delivery,159.73,Rejected
+1119,20279,2022-05-17,Changed Mind,284.56,Approved
+1120,20292,2024-06-02,Late Delivery,132.21,Rejected
+1121,20296,2024-06-22,Damaged,156.97,Rejected
+1122,20304,2025-01-27,Damaged,431.87,Approved
+1123,20384,2024-10-24,Changed Mind,821.44,Approved
+1124,20385,2024-10-16,Not as Described,324.07,Approved
+1125,20388,2024-09-29,Wrong Item,226.72,Approved
+1126,20390,2023-05-26,Changed Mind,618.04,Approved
+1127,20418,2022-02-04,Damaged,375.53,Approved
+1128,20461,2023-12-13,Changed Mind,151.5,Approved
+1129,20467,2024-04-09,Changed Mind,742.5,Approved
+1130,20522,2025-05-24,Damaged,276.73,Approved
+1131,20528,2023-03-11,Changed Mind,450.83,Approved
+1132,20550,2024-10-17,Wrong Item,644.07,Rejected
+1133,20551,2023-09-16,Not as Described,992.86,Approved
+1134,20572,2023-02-10,Wrong Item,327.84,Rejected
+1135,20591,2024-03-22,Changed Mind,451.01,Rejected
+1136,20650,2025-02-13,Not as Described,229.09,Rejected
+1137,20665,2022-04-15,Damaged,643.5,Approved
+1138,20670,2022-10-18,Wrong Item,110.35,Approved
+1139,20717,2024-12-12,Changed Mind,483.64,Rejected
+1140,20749,2023-11-26,Changed Mind,710.47,Approved
+1141,20773,2025-11-13,Late Delivery,263.64,Approved
+1142,20786,2024-06-17,Late Delivery,1671.44,Rejected
+1143,20835,2022-10-01,Wrong Item,726.51,Rejected
+1144,20855,2025-01-24,Damaged,127.16,Approved
+1145,20921,2026-01-19,Damaged,127.29,Rejected
+1146,20939,2025-12-13,Late Delivery,247.57,Approved
+1147,20950,2025-10-10,Not as Described,74.99,Approved
+1148,20985,2024-05-17,Damaged,218.76,Approved
+1149,20997,2022-06-13,Changed Mind,1114.08,Approved
+1150,21001,2025-07-26,Damaged,718.07,Rejected
+1151,21002,2025-08-15,Changed Mind,277.32,Approved
+1152,21007,2025-12-31,Changed Mind,387.65,Approved
+1153,21024,2022-10-18,Wrong Item,680.99,Approved
+1154,21031,2024-06-13,Late Delivery,75.26,Rejected
+1155,21039,2024-01-12,Late Delivery,73.88,Approved
+1156,21055,2022-09-04,Changed Mind,178.24,Approved
+1157,21071,2025-09-10,Damaged,610.1,Rejected
+1158,21072,2025-09-25,Not as Described,238.49,Approved
+1159,21077,2023-11-23,Not as Described,637.37,Rejected
+1160,21099,2023-02-13,Damaged,269.48,Approved
+1161,21106,2025-03-30,Damaged,211.48,Approved
+1162,21115,2022-07-31,Damaged,251.42,Approved
+1163,21134,2023-01-10,Changed Mind,948.74,Approved
+1164,21148,2022-03-27,Damaged,1020.18,Approved
+1165,21167,2023-01-23,Changed Mind,238.7,Approved
+1166,21234,2024-01-03,Changed Mind,154.41,Approved
+1167,21257,2022-11-18,Changed Mind,552.03,Rejected
+1168,21340,2023-08-29,Late Delivery,36.91,Approved
+1169,21341,2023-09-14,Not as Described,167.17,Rejected
+1170,21368,2024-07-02,Damaged,864.4,Approved
+1171,21382,2023-10-04,Damaged,27.61,Approved
+1172,21465,2022-07-16,Wrong Item,237.52,Approved
+1173,21486,2024-02-17,Wrong Item,321.84,Approved
+1174,21489,2022-12-25,Not as Described,81.55,Approved
+1175,21518,2024-02-19,Not as Described,85.99,Rejected
+1176,21547,2025-12-19,Damaged,390.06,Approved
+1177,21590,2023-04-10,Damaged,193.42,Approved
+1178,21624,2022-04-18,Wrong Item,328.25,Rejected
+1179,21644,2022-11-25,Damaged,174.08,Approved
+1180,21663,2022-04-29,Damaged,490.54,Approved
+1181,21709,2025-09-01,Changed Mind,309.28,Approved
+1182,21719,2022-05-23,Changed Mind,417.86,Rejected
+1183,21748,2024-01-01,Late Delivery,251.84,Approved
+1184,21757,2022-03-08,Late Delivery,512.6,Approved
+1185,21759,2022-03-07,Changed Mind,225.72,Rejected
+1186,21764,2024-10-04,Changed Mind,185.18,Rejected
+1187,21783,2024-08-18,Changed Mind,155.2,Approved
+1188,21835,2024-03-27,Not as Described,780.09,Rejected
+1189,21890,2022-08-28,Changed Mind,766.25,Approved
+1190,21902,2024-02-05,Damaged,107.52,Rejected
+1191,21988,2023-05-17,Late Delivery,1405.32,Rejected
+1192,21990,2023-05-20,Changed Mind,1536.69,Approved
+1193,22000,2024-02-13,Damaged,112.86,Approved
+1194,22012,2022-10-02,Not as Described,96.52,Rejected
+1195,22022,2023-10-02,Damaged,262.97,Approved
+1196,22035,2022-05-28,Not as Described,699.79,Rejected
+1197,22066,2023-05-10,Not as Described,1742.4,Rejected
+1198,22069,2022-08-18,Damaged,194.7,Approved
+1199,22080,2024-03-10,Damaged,88.24,Rejected
+1200,22107,2025-01-09,Late Delivery,38.56,Approved
+1201,22114,2022-02-16,Damaged,301.91,Approved
+1202,22117,2025-12-20,Damaged,487.82,Rejected
+1203,22118,2025-12-09,Not as Described,291.92,Approved
+1204,22126,2022-07-13,Late Delivery,314.11,Approved
+1205,22153,2022-06-13,Late Delivery,101.74,Approved
+1206,22227,2022-09-10,Not as Described,302.36,Rejected
+1207,22272,2023-10-19,Damaged,125.12,Approved
+1208,22285,2023-11-28,Late Delivery,347.85,Approved
+1209,22317,2023-01-28,Not as Described,209.16,Approved
+1210,22325,2024-06-13,Changed Mind,18.44,Approved
+1211,22335,2023-07-30,Wrong Item,223.08,Approved
+1212,22374,2023-04-24,Changed Mind,115.48,Rejected
+1213,22380,2024-03-09,Changed Mind,79.7,Approved
+1214,22399,2023-01-13,Changed Mind,51.43,Approved
+1215,22421,2023-01-02,Not as Described,282.37,Approved
+1216,22425,2025-09-16,Wrong Item,277.96,Rejected
+1217,22441,2024-01-25,Damaged,563.66,Rejected
+1218,22442,2024-01-27,Damaged,432.0,Rejected
+1219,22461,2022-07-27,Changed Mind,244.87,Approved
+1220,22469,2022-05-06,Not as Described,451.81,Rejected
+1221,22485,2022-06-16,Not as Described,908.6,Rejected
+1222,22491,2022-11-12,Wrong Item,419.41,Approved
+1223,22496,2023-11-19,Changed Mind,417.95,Rejected
+1224,22511,2024-06-15,Not as Described,312.53,Approved
+1225,22513,2024-06-23,Changed Mind,403.54,Approved
+1226,22521,2025-08-05,Not as Described,262.59,Approved
+1227,22526,2022-02-24,Late Delivery,76.65,Rejected
+1228,22527,2022-02-24,Damaged,275.09,Approved
+1229,22537,2022-11-30,Not as Described,567.99,Rejected
+1230,22550,2024-12-01,Changed Mind,111.33,Approved
+1231,22579,2022-08-17,Changed Mind,630.8,Approved
+1232,22594,2025-02-21,Damaged,339.06,Rejected
+1233,22617,2024-08-24,Late Delivery,657.94,Approved
+1234,22651,2024-08-11,Late Delivery,922.71,Approved
+1235,22654,2024-07-24,Changed Mind,112.8,Approved
+1236,22665,2022-12-26,Late Delivery,914.5,Rejected
+1237,22670,2025-09-24,Late Delivery,1047.81,Approved
+1238,22687,2022-03-18,Damaged,80.85,Rejected
+1239,22689,2023-07-01,Changed Mind,185.7,Rejected
+1240,22701,2024-04-21,Not as Described,75.44,Approved
+1241,22746,2025-01-15,Changed Mind,909.64,Rejected
+1242,22788,2023-03-30,Changed Mind,183.41,Approved
+1243,22817,2025-08-19,Changed Mind,566.33,Approved
+1244,22830,2025-03-15,Damaged,951.94,Approved
+1245,22867,2025-10-22,Not as Described,50.82,Approved
+1246,22873,2022-07-22,Late Delivery,279.15,Rejected
+1247,22883,2024-05-20,Changed Mind,285.66,Approved
+1248,22891,2024-11-12,Changed Mind,515.91,Rejected
+1249,22925,2023-10-03,Changed Mind,447.25,Approved
+1250,22933,2023-10-21,Changed Mind,554.37,Approved
+1251,22941,2023-06-29,Not as Described,757.84,Approved
+1252,22967,2023-08-09,Wrong Item,83.64,Approved
+1253,22972,2022-09-01,Changed Mind,39.51,Approved
+1254,22980,2024-09-25,Changed Mind,57.87,Approved
+1255,23009,2024-12-17,Not as Described,351.59,Approved
+1256,23019,2022-03-30,Damaged,71.92,Approved
+1257,23025,2022-11-16,Changed Mind,779.38,Approved
+1258,23031,2024-11-02,Wrong Item,243.88,Approved
+1259,23035,2025-09-01,Wrong Item,261.44,Approved
+1260,23052,2025-04-15,Changed Mind,2375.79,Rejected
+1261,23081,2023-02-15,Damaged,89.95,Approved
+1262,23137,2025-07-19,Changed Mind,189.07,Approved
+1263,23149,2024-06-11,Changed Mind,109.31,Approved
+1264,23183,2023-10-15,Damaged,178.99,Approved
+1265,23192,2025-11-02,Changed Mind,395.27,Approved
+1266,23194,2025-10-14,Not as Described,136.64,Approved
+1267,23215,2023-04-19,Changed Mind,182.08,Rejected
+1268,23241,2024-05-04,Damaged,281.26,Approved
+1269,23246,2023-04-04,Late Delivery,153.25,Approved
+1270,23251,2022-12-21,Changed Mind,231.67,Approved
+1271,23275,2022-05-13,Not as Described,159.74,Rejected
+1272,23305,2022-09-10,Damaged,949.69,Approved
+1273,23306,2025-01-22,Not as Described,1008.77,Approved
+1274,23311,2023-04-17,Changed Mind,276.42,Approved
+1275,23333,2023-07-27,Late Delivery,357.45,Rejected
+1276,23356,2025-05-10,Changed Mind,257.38,Approved
+1277,23357,2025-04-25,Damaged,128.74,Approved
+1278,23378,2025-07-23,Damaged,118.33,Approved
+1279,23381,2025-08-15,Damaged,686.7,Approved
+1280,23382,2024-02-19,Not as Described,49.18,Rejected
+1281,23401,2024-11-24,Not as Described,42.36,Approved
+1282,23410,2024-08-26,Not as Described,213.27,Approved
+1283,23423,2022-12-20,Changed Mind,125.9,Rejected
+1284,23425,2025-12-17,Changed Mind,96.79,Approved
+1285,23428,2022-03-09,Damaged,126.36,Approved
+1286,23433,2025-12-16,Changed Mind,487.97,Approved
+1287,23436,2025-12-21,Changed Mind,415.38,Approved
+1288,23501,2023-10-13,Changed Mind,53.55,Approved
+1289,23503,2025-08-20,Damaged,28.85,Approved
+1290,23506,2024-12-08,Not as Described,220.3,Approved
+1291,23513,2024-12-21,Not as Described,540.49,Approved
+1292,23535,2025-06-22,Not as Described,67.95,Approved
+1293,23546,2022-08-13,Changed Mind,995.48,Approved
+1294,23547,2024-01-17,Changed Mind,276.96,Rejected
+1295,23565,2025-08-24,Not as Described,295.84,Approved
+1296,23568,2024-11-03,Damaged,2464.87,Approved
+1297,23603,2022-06-01,Late Delivery,259.88,Approved
+1298,23617,2025-10-22,Changed Mind,410.06,Approved
+1299,23628,2025-07-28,Damaged,455.96,Rejected
+1300,23633,2023-08-11,Damaged,117.88,Approved
+1301,23647,2024-07-24,Not as Described,382.89,Approved
+1302,23689,2023-09-24,Not as Described,562.93,Rejected
+1303,23701,2024-04-06,Damaged,172.75,Approved
+1304,23718,2022-02-14,Wrong Item,1377.56,Rejected
+1305,23732,2022-07-04,Changed Mind,493.84,Approved
+1306,23739,2023-10-24,Changed Mind,193.73,Approved
+1307,23747,2024-09-04,Damaged,317.58,Rejected
+1308,23749,2023-06-25,Not as Described,82.5,Rejected
+1309,23775,2024-10-13,Not as Described,60.93,Approved
+1310,23777,2022-03-20,Wrong Item,112.19,Rejected
+1311,23779,2022-11-18,Not as Described,288.24,Rejected
+1312,23788,2025-07-28,Not as Described,122.92,Approved
+1313,23789,2025-07-17,Not as Described,615.85,Approved
+1314,23801,2024-04-21,Damaged,487.95,Rejected
+1315,23802,2024-04-16,Wrong Item,198.39,Rejected
+1316,23813,2022-07-17,Late Delivery,82.57,Approved
+1317,23814,2023-10-25,Damaged,132.04,Approved
+1318,23832,2024-01-03,Late Delivery,897.8,Approved
+1319,23835,2025-03-16,Damaged,267.52,Approved
+1320,23838,2023-06-27,Changed Mind,274.77,Approved
+1321,23874,2025-08-02,Not as Described,83.72,Approved
+1322,23875,2025-08-23,Changed Mind,535.48,Approved
+1323,23893,2024-06-11,Not as Described,241.92,Rejected
+1324,23897,2025-10-17,Changed Mind,1133.86,Rejected
+1325,23913,2024-08-18,Changed Mind,190.32,Approved
+1326,23925,2022-11-30,Not as Described,641.75,Rejected
+1327,23977,2026-01-10,Wrong Item,207.58,Approved
+1328,23996,2022-04-18,Late Delivery,144.33,Approved
+1329,24014,2025-11-30,Damaged,863.15,Approved
+1330,24018,2022-03-10,Changed Mind,38.55,Rejected
+1331,24019,2022-03-23,Damaged,697.88,Approved
+1332,24055,2024-12-05,Wrong Item,277.93,Rejected
+1333,24066,2024-12-31,Changed Mind,251.47,Approved
+1334,24070,2025-01-26,Changed Mind,349.25,Approved
+1335,24099,2025-11-03,Not as Described,736.87,Approved
+1336,24104,2025-07-28,Late Delivery,143.3,Approved
+1337,24125,2024-03-28,Wrong Item,87.43,Approved
+1338,24140,2023-07-06,Late Delivery,1168.79,Rejected
+1339,24149,2024-09-04,Not as Described,293.45,Approved
+1340,24153,2023-12-13,Changed Mind,168.64,Rejected
+1341,24202,2023-12-20,Changed Mind,343.1,Approved
+1342,24236,2025-08-17,Late Delivery,498.79,Approved
+1343,24238,2025-08-20,Changed Mind,143.87,Rejected
+1344,24242,2024-09-29,Not as Described,201.55,Approved
+1345,24264,2025-12-22,Damaged,17.85,Rejected
+1346,24265,2025-12-23,Late Delivery,48.92,Rejected
+1347,24273,2023-10-06,Wrong Item,273.43,Approved
+1348,24281,2024-04-07,Not as Described,212.18,Approved
+1349,24290,2023-09-07,Wrong Item,42.6,Approved
+1350,24293,2025-11-03,Damaged,523.05,Approved
+1351,24301,2024-02-11,Wrong Item,224.71,Approved
+1352,24354,2024-08-14,Damaged,73.75,Rejected
+1353,24363,2024-11-29,Late Delivery,192.38,Approved
+1354,24381,2022-12-03,Changed Mind,494.92,Approved
+1355,24383,2022-12-01,Wrong Item,371.34,Approved
+1356,24407,2024-12-09,Changed Mind,76.07,Rejected
+1357,24414,2023-03-03,Changed Mind,733.1,Approved
+1358,24420,2024-12-21,Late Delivery,76.36,Approved
+1359,24423,2025-05-28,Changed Mind,352.62,Approved
+1360,24424,2025-05-02,Changed Mind,229.49,Approved
+1361,24449,2024-01-06,Late Delivery,112.31,Approved
+1362,24451,2024-07-10,Not as Described,206.84,Approved
+1363,24457,2023-03-31,Changed Mind,1679.78,Rejected
+1364,24458,2022-05-05,Changed Mind,201.07,Approved
+1365,24467,2023-10-27,Late Delivery,87.43,Rejected
+1366,24495,2023-04-21,Changed Mind,130.47,Approved
+1367,24511,2023-07-17,Damaged,109.22,Approved
+1368,24519,2023-12-09,Damaged,786.06,Approved
+1369,24540,2023-12-24,Damaged,1205.08,Approved
+1370,24549,2023-01-06,Not as Described,648.97,Approved
+1371,24585,2022-08-02,Late Delivery,1548.15,Approved
+1372,24590,2025-05-26,Damaged,178.56,Approved
+1373,24621,2023-11-02,Damaged,227.89,Approved
+1374,24627,2022-03-06,Wrong Item,197.49,Approved
+1375,24664,2022-04-01,Changed Mind,567.7,Rejected
+1376,24723,2025-02-12,Wrong Item,383.37,Approved
+1377,24745,2022-10-23,Changed Mind,374.04,Rejected
+1378,24757,2022-05-18,Changed Mind,1267.87,Approved
+1379,24776,2022-11-12,Wrong Item,293.09,Approved
+1380,24792,2024-01-04,Changed Mind,36.78,Approved
+1381,24825,2023-12-31,Not as Described,112.21,Approved
+1382,24836,2023-08-25,Changed Mind,253.45,Approved
+1383,24867,2025-11-15,Changed Mind,192.58,Approved
+1384,24878,2022-05-21,Wrong Item,1074.08,Approved
+1385,24892,2022-06-09,Not as Described,606.1,Approved
+1386,24913,2025-12-16,Damaged,153.45,Approved
+1387,24920,2024-08-23,Damaged,204.53,Approved
+1388,24972,2022-05-19,Damaged,732.27,Approved
+1389,24974,2024-12-17,Damaged,281.08,Approved
+1390,24977,2022-03-01,Damaged,62.81,Rejected
+1391,24985,2023-06-29,Wrong Item,638.0,Approved
+1392,25016,2023-02-13,Not as Described,105.99,Approved
+1393,25018,2025-07-14,Not as Described,641.68,Approved
+1394,25049,2025-03-31,Damaged,201.88,Rejected
+1395,25105,2023-12-23,Damaged,107.35,Rejected
+1396,25107,2024-04-17,Not as Described,166.18,Approved
+1397,25142,2022-09-30,Wrong Item,114.67,Rejected
+1398,25158,2025-12-28,Damaged,1537.22,Approved
+1399,25173,2022-08-31,Changed Mind,128.92,Rejected
+1400,25186,2023-12-16,Changed Mind,291.12,Approved
+1401,25193,2024-04-01,Changed Mind,256.06,Rejected
+1402,25215,2023-08-30,Changed Mind,522.4,Approved
+1403,25231,2025-11-29,Changed Mind,65.14,Rejected
+1404,25234,2025-12-14,Changed Mind,433.82,Approved
+1405,25235,2025-12-21,Wrong Item,252.49,Approved
+1406,25238,2023-11-13,Changed Mind,682.87,Rejected
+1407,25255,2024-01-07,Not as Described,173.25,Rejected
+1408,25270,2024-01-10,Damaged,468.47,Approved
+1409,25292,2023-05-31,Not as Described,80.82,Approved
+1410,25303,2023-12-30,Wrong Item,166.11,Approved
+1411,25318,2023-08-13,Not as Described,1125.14,Rejected
+1412,25335,2023-09-24,Late Delivery,276.11,Rejected
+1413,25337,2023-09-16,Not as Described,80.77,Rejected
+1414,25356,2022-05-06,Wrong Item,129.66,Approved
+1415,25375,2023-10-26,Changed Mind,125.39,Rejected
+1416,25401,2022-11-04,Wrong Item,2596.84,Approved
+1417,25402,2024-12-27,Changed Mind,925.88,Approved
+1418,25409,2025-11-29,Late Delivery,806.89,Rejected
+1419,25418,2025-12-21,Not as Described,991.82,Approved
+1420,25422,2025-12-09,Changed Mind,544.41,Rejected
+1421,25425,2024-02-28,Changed Mind,725.87,Approved
+1422,25429,2024-08-04,Damaged,1409.04,Rejected
+1423,25517,2025-05-14,Changed Mind,98.48,Approved
+1424,25527,2024-03-08,Damaged,469.4,Rejected
+1425,25529,2023-07-30,Not as Described,195.07,Approved
+1426,25540,2025-05-25,Changed Mind,184.55,Approved
+1427,25561,2025-05-29,Not as Described,253.08,Approved
+1428,25566,2024-12-22,Damaged,550.41,Rejected
+1429,25575,2024-10-12,Damaged,426.92,Approved
+1430,25611,2023-01-01,Changed Mind,395.08,Approved
+1431,25661,2022-09-19,Damaged,421.59,Rejected
+1432,25664,2024-10-13,Late Delivery,281.04,Approved
+1433,25666,2022-12-15,Not as Described,165.98,Approved
+1434,25672,2024-06-17,Damaged,113.64,Rejected
+1435,25720,2022-04-25,Wrong Item,819.11,Approved
+1436,25722,2026-01-16,Changed Mind,129.64,Approved
+1437,25732,2024-08-28,Damaged,481.81,Approved
+1438,25758,2023-01-18,Changed Mind,204.15,Rejected
+1439,25763,2022-12-05,Not as Described,445.68,Approved
+1440,25777,2025-08-23,Not as Described,614.2,Approved
+1441,25786,2022-11-14,Damaged,310.81,Approved
+1442,25792,2022-07-29,Changed Mind,304.8,Rejected
+1443,25793,2022-08-19,Damaged,512.64,Approved
+1444,25795,2025-12-08,Wrong Item,320.42,Approved
+1445,25810,2022-12-18,Changed Mind,141.98,Rejected
+1446,25819,2025-06-29,Changed Mind,355.62,Approved
+1447,25835,2022-07-29,Changed Mind,171.92,Rejected
+1448,25838,2025-01-27,Wrong Item,448.2,Approved
+1449,25862,2022-04-03,Damaged,1095.32,Approved
+1450,25880,2023-10-03,Changed Mind,837.9,Approved
+1451,25881,2023-09-26,Not as Described,288.22,Rejected
+1452,25890,2024-12-06,Wrong Item,351.52,Approved
+1453,25902,2022-08-05,Wrong Item,166.98,Rejected
+1454,25908,2023-04-24,Not as Described,494.75,Approved
+1455,26000,2023-10-08,Not as Described,279.69,Approved
+1456,26007,2023-02-03,Changed Mind,1950.45,Approved
+1457,26010,2022-02-04,Damaged,267.95,Approved
+1458,26022,2024-10-27,Wrong Item,215.7,Rejected
+1459,26033,2022-08-22,Wrong Item,292.59,Rejected
+1460,26041,2025-12-02,Damaged,90.83,Approved
+1461,26118,2025-07-29,Changed Mind,251.08,Approved
+1462,26119,2025-08-05,Wrong Item,608.61,Approved
+1463,26164,2024-10-21,Late Delivery,92.8,Rejected
+1464,26213,2024-10-03,Not as Described,410.09,Rejected
+1465,26219,2022-08-12,Not as Described,158.27,Approved
+1466,26222,2023-04-22,Not as Described,1223.25,Approved
+1467,26277,2025-07-02,Not as Described,341.68,Rejected
+1468,26318,2023-11-15,Damaged,120.13,Rejected
+1469,26331,2022-04-20,Late Delivery,1880.86,Approved
+1470,26368,2023-07-11,Wrong Item,102.23,Approved
+1471,26373,2023-04-30,Not as Described,534.04,Approved
+1472,26446,2024-03-11,Not as Described,248.48,Rejected
+1473,26486,2022-12-18,Damaged,803.01,Approved
+1474,26510,2023-11-01,Not as Described,1114.42,Approved
+1475,26516,2022-07-29,Not as Described,216.95,Approved
+1476,26527,2025-09-20,Damaged,186.8,Approved
+1477,26530,2024-05-08,Not as Described,145.68,Approved
+1478,26545,2024-03-03,Not as Described,322.73,Rejected
+1479,26675,2023-07-28,Wrong Item,306.68,Approved
+1480,26689,2024-08-17,Damaged,936.3,Rejected
+1481,26695,2023-07-04,Wrong Item,171.19,Approved
+1482,26711,2025-12-19,Damaged,260.4,Approved
+1483,26746,2023-08-13,Wrong Item,231.01,Approved
+1484,26766,2025-02-14,Damaged,1101.84,Rejected
+1485,26773,2024-05-28,Damaged,300.53,Approved
+1486,26808,2023-10-29,Changed Mind,560.35,Approved
+1487,26817,2023-10-01,Changed Mind,475.36,Rejected
+1488,26914,2025-09-16,Not as Described,643.21,Rejected
+1489,26963,2024-08-18,Damaged,286.8,Rejected
+1490,26978,2025-11-01,Damaged,1097.22,Approved
+1491,27008,2025-07-06,Not as Described,228.54,Approved
+1492,27018,2022-10-10,Wrong Item,284.2,Approved
+1493,27036,2024-03-13,Not as Described,162.86,Rejected
+1494,27044,2022-10-25,Wrong Item,276.75,Approved
+1495,27047,2024-08-16,Not as Described,179.29,Rejected
+1496,27053,2022-06-18,Not as Described,405.22,Approved
+1497,27070,2024-02-24,Damaged,44.88,Rejected
+1498,27102,2024-11-18,Not as Described,156.53,Rejected
+1499,27128,2023-11-04,Not as Described,63.36,Approved
+1500,27161,2024-04-18,Damaged,521.7,Rejected
+1501,27173,2025-09-16,Changed Mind,489.91,Approved
+1502,27177,2025-02-19,Wrong Item,234.12,Approved
+1503,27204,2023-03-28,Changed Mind,56.75,Approved
+1504,27246,2022-06-28,Wrong Item,23.86,Approved
+1505,27269,2025-05-17,Wrong Item,292.18,Approved
+1506,27293,2024-08-12,Wrong Item,124.6,Rejected
+1507,27336,2024-12-27,Changed Mind,164.51,Approved
+1508,27339,2024-05-02,Not as Described,609.81,Rejected
+1509,27360,2022-07-08,Damaged,534.95,Approved
+1510,27363,2022-06-16,Damaged,184.4,Approved
+1511,27374,2023-09-24,Changed Mind,601.33,Approved
+1512,27388,2024-02-27,Late Delivery,276.45,Rejected
+1513,27389,2024-03-04,Changed Mind,2449.11,Rejected
+1514,27391,2024-02-22,Not as Described,781.79,Rejected
+1515,27403,2023-10-13,Changed Mind,79.14,Approved
+1516,27442,2023-01-28,Wrong Item,252.41,Rejected
+1517,27451,2022-07-14,Damaged,90.17,Approved
+1518,27470,2024-08-11,Changed Mind,119.75,Approved
+1519,27488,2025-12-25,Wrong Item,128.33,Approved
+1520,27499,2022-05-02,Damaged,727.02,Approved
+1521,27533,2024-06-25,Not as Described,473.55,Approved
+1522,27552,2025-07-13,Late Delivery,280.93,Approved
+1523,27566,2023-01-04,Not as Described,968.47,Approved
+1524,27594,2024-05-21,Not as Described,692.25,Approved
+1525,27607,2024-11-01,Changed Mind,172.53,Approved
+1526,27641,2025-11-13,Changed Mind,498.56,Approved
+1527,27713,2023-09-27,Late Delivery,240.75,Approved
+1528,27771,2023-03-14,Not as Described,101.12,Rejected
+1529,27780,2023-03-09,Wrong Item,613.15,Approved
+1530,27786,2025-10-23,Wrong Item,372.71,Approved
+1531,27795,2025-05-24,Wrong Item,147.22,Rejected
+1532,27830,2025-10-14,Not as Described,471.9,Approved
+1533,27846,2022-09-28,Not as Described,94.33,Rejected
+1534,27913,2024-09-30,Not as Described,105.85,Approved
+1535,27916,2022-06-04,Late Delivery,330.77,Approved
+1536,27930,2025-03-22,Wrong Item,238.73,Approved
+1537,27968,2023-06-18,Late Delivery,812.84,Approved
+1538,27978,2022-06-08,Damaged,231.59,Approved
+1539,28019,2024-02-13,Not as Described,559.11,Approved
+1540,28049,2024-12-22,Wrong Item,47.09,Approved
+1541,28061,2023-09-03,Wrong Item,126.65,Approved
+1542,28075,2023-05-26,Changed Mind,242.85,Rejected
+1543,28082,2022-03-03,Late Delivery,284.28,Approved
+1544,28095,2023-12-19,Wrong Item,161.02,Rejected
+1545,28123,2023-01-12,Damaged,17.28,Approved
+1546,28146,2022-04-09,Damaged,95.18,Approved
+1547,28168,2024-04-08,Late Delivery,436.81,Approved
+1548,28174,2024-01-07,Changed Mind,105.38,Rejected
+1549,28194,2023-07-28,Wrong Item,1144.5,Approved
+1550,28196,2023-07-28,Wrong Item,19.92,Approved
+1551,28209,2026-01-13,Not as Described,592.72,Approved
+1552,28247,2023-12-09,Wrong Item,579.46,Approved
+1553,28248,2024-12-18,Not as Described,3531.38,Approved
+1554,28274,2025-02-06,Damaged,327.18,Approved
+1555,28276,2024-04-01,Damaged,171.42,Rejected
+1556,28310,2024-01-23,Damaged,143.12,Approved
+1557,28313,2024-07-14,Not as Described,30.85,Approved
+1558,28319,2023-11-28,Not as Described,153.5,Approved
+1559,28321,2024-09-24,Changed Mind,252.82,Rejected
+1560,28345,2025-12-31,Damaged,1219.18,Approved
+1561,28346,2025-12-10,Changed Mind,638.29,Approved
+1562,28347,2025-12-20,Damaged,504.29,Approved
+1563,28361,2023-07-13,Late Delivery,107.58,Approved
+1564,28372,2023-03-28,Damaged,704.53,Approved
+1565,28374,2023-01-18,Wrong Item,160.97,Rejected
+1566,28375,2023-02-12,Not as Described,1976.4,Rejected
+1567,28394,2025-11-25,Not as Described,89.31,Rejected
+1568,28398,2024-12-05,Not as Described,133.85,Rejected
+1569,28411,2025-01-05,Damaged,604.13,Approved
+1570,28447,2025-01-24,Changed Mind,136.31,Approved
+1571,28456,2023-08-10,Damaged,120.48,Approved
+1572,28465,2022-05-05,Late Delivery,2988.01,Approved
+1573,28484,2025-04-06,Not as Described,321.21,Rejected
+1574,28507,2025-01-15,Damaged,121.0,Approved
+1575,28540,2022-11-03,Late Delivery,410.58,Approved
+1576,28541,2022-06-18,Changed Mind,227.1,Approved
+1577,28590,2025-07-13,Damaged,952.62,Approved
+1578,28609,2022-08-31,Changed Mind,1921.38,Approved
+1579,28621,2024-05-24,Wrong Item,272.18,Approved
+1580,28697,2025-02-16,Changed Mind,815.78,Rejected
+1581,28717,2022-02-01,Wrong Item,61.59,Approved
+1582,28796,2023-09-13,Not as Described,77.58,Rejected
+1583,28828,2023-01-24,Not as Described,93.29,Rejected
+1584,28880,2024-05-28,Damaged,369.66,Approved
+1585,28884,2022-06-23,Not as Described,106.91,Approved
+1586,28925,2025-12-02,Not as Described,1150.82,Approved
+1587,28943,2024-10-03,Changed Mind,209.19,Rejected
+1588,28997,2023-11-13,Damaged,265.89,Rejected
+1589,29014,2025-12-23,Changed Mind,1003.56,Approved
+1590,29015,2022-12-29,Changed Mind,592.93,Approved
+1591,29019,2024-08-02,Not as Described,155.56,Approved
+1592,29021,2024-07-28,Late Delivery,294.85,Rejected
+1593,29029,2024-10-23,Changed Mind,475.51,Rejected
+1594,29036,2025-10-24,Changed Mind,98.62,Approved
+1595,29041,2025-11-04,Late Delivery,256.9,Approved
+1596,29083,2023-08-19,Not as Described,356.98,Approved
+1597,29123,2023-10-01,Not as Described,280.17,Approved
+1598,29124,2023-09-25,Changed Mind,180.2,Approved
+1599,29142,2023-04-21,Changed Mind,27.84,Rejected
+1600,29148,2024-02-24,Changed Mind,572.7,Rejected
+1601,29161,2024-01-22,Wrong Item,343.33,Rejected
+1602,29181,2025-03-26,Late Delivery,500.17,Approved
+1603,29198,2022-11-27,Not as Described,330.7,Approved
+1604,29200,2022-12-05,Changed Mind,253.54,Approved
+1605,29202,2022-11-23,Late Delivery,161.36,Rejected
+1606,29210,2023-04-03,Changed Mind,545.49,Rejected
+1607,29225,2024-08-21,Wrong Item,693.84,Rejected
+1608,29229,2022-08-05,Changed Mind,147.11,Approved
+1609,29256,2025-10-08,Not as Described,355.97,Rejected
+1610,29260,2022-11-07,Late Delivery,777.41,Rejected
+1611,29270,2023-12-04,Changed Mind,15.12,Approved
+1612,29272,2023-07-07,Not as Described,106.68,Approved
+1613,29280,2022-09-07,Changed Mind,97.18,Approved
+1614,29298,2025-12-27,Late Delivery,207.3,Approved
+1615,29303,2026-01-13,Changed Mind,251.18,Approved
+1616,29305,2026-01-10,Not as Described,199.05,Approved
+1617,29351,2023-03-02,Damaged,266.76,Rejected
+1618,29369,2022-04-26,Changed Mind,173.62,Rejected
+1619,29387,2025-07-05,Not as Described,65.28,Rejected
+1620,29399,2023-05-20,Not as Described,195.23,Rejected
+1621,29419,2024-05-11,Changed Mind,25.6,Approved
+1622,29420,2024-05-17,Changed Mind,55.84,Approved
+1623,29422,2025-06-27,Changed Mind,125.83,Rejected
+1624,29425,2025-11-23,Changed Mind,188.5,Approved
+1625,29441,2022-03-07,Damaged,852.31,Approved
+1626,29472,2025-10-15,Changed Mind,490.67,Approved
+1627,29488,2024-03-01,Damaged,563.4,Approved
+1628,29508,2022-08-30,Late Delivery,264.06,Approved
+1629,29513,2022-08-05,Not as Described,312.81,Rejected
+1630,29514,2024-09-01,Damaged,310.56,Approved
+1631,29520,2024-03-15,Changed Mind,47.86,Approved
+1632,29540,2024-12-02,Changed Mind,194.18,Approved
+1633,29553,2025-10-15,Not as Described,14.88,Approved
+1634,29607,2025-11-23,Damaged,207.81,Rejected
+1635,29643,2023-12-12,Changed Mind,287.51,Rejected
+1636,29657,2023-06-18,Damaged,143.02,Approved
+1637,29683,2025-12-22,Wrong Item,549.27,Approved
+1638,29689,2022-12-10,Changed Mind,60.03,Approved
+1639,29738,2022-11-20,Changed Mind,30.08,Rejected
+1640,29762,2026-01-16,Wrong Item,169.08,Rejected
+1641,29767,2024-07-20,Damaged,251.75,Approved
+1642,29768,2024-07-29,Wrong Item,507.1,Approved
+1643,29778,2025-08-13,Wrong Item,134.98,Approved
+1644,29791,2025-04-04,Damaged,439.62,Rejected
+1645,29794,2025-02-25,Damaged,58.05,Rejected
+1646,29803,2024-03-05,Late Delivery,292.58,Approved
+1647,29809,2023-08-12,Not as Described,685.88,Approved
+1648,29814,2023-11-20,Changed Mind,216.45,Approved
+1649,29821,2022-06-12,Damaged,392.54,Rejected
+1650,29829,2022-12-04,Not as Described,157.35,Approved
+1651,29849,2024-04-27,Not as Described,240.43,Approved
+1652,29889,2025-01-19,Wrong Item,113.71,Approved
+1653,29895,2025-05-22,Changed Mind,181.94,Approved
+1654,29951,2023-10-19,Damaged,573.96,Approved
+1655,29957,2024-06-26,Not as Described,246.97,Rejected
+1656,29965,2024-02-26,Damaged,1094.31,Rejected
+1657,29978,2024-07-14,Not as Described,95.55,Approved
+1658,30025,2025-06-13,Damaged,336.21,Approved
+1659,30033,2025-02-17,Wrong Item,357.95,Approved
+1660,30056,2025-08-07,Damaged,1096.19,Approved
+1661,30067,2026-01-23,Damaged,105.03,Rejected
+1662,30073,2022-03-15,Wrong Item,216.73,Approved
+1663,30079,2023-04-26,Changed Mind,291.49,Approved
+1664,30125,2025-01-09,Changed Mind,1311.59,Approved
+1665,30127,2025-01-26,Not as Described,456.22,Approved
+1666,30139,2024-10-25,Not as Described,74.68,Approved
+1667,30143,2022-10-08,Changed Mind,85.09,Approved
+1668,30151,2024-10-05,Wrong Item,413.44,Rejected
+1669,30164,2022-12-10,Changed Mind,233.78,Rejected
+1670,30186,2025-07-11,Not as Described,132.04,Approved
+1671,30205,2023-10-15,Not as Described,547.91,Approved
+1672,30216,2025-08-24,Wrong Item,136.8,Approved
+1673,30237,2026-01-17,Not as Described,350.43,Approved
+1674,30265,2023-04-05,Not as Described,80.51,Approved
+1675,30327,2025-01-18,Wrong Item,687.7,Approved
+1676,30343,2025-06-04,Changed Mind,26.24,Rejected
+1677,30347,2022-09-05,Not as Described,96.49,Approved
+1678,30352,2022-12-01,Late Delivery,597.69,Approved
+1679,30357,2024-11-22,Wrong Item,1809.36,Approved
+1680,30372,2024-07-26,Changed Mind,171.98,Approved
+1681,30406,2022-11-10,Changed Mind,199.2,Approved
+1682,30411,2024-08-13,Damaged,373.01,Approved
+1683,30431,2022-07-26,Changed Mind,370.58,Approved
+1684,30436,2023-12-16,Not as Described,225.91,Approved
+1685,30438,2023-12-21,Changed Mind,460.38,Approved
+1686,30466,2022-04-23,Damaged,120.05,Approved
+1687,30467,2024-01-17,Damaged,204.53,Approved
+1688,30478,2022-03-13,Changed Mind,698.37,Approved
+1689,30487,2023-05-23,Not as Described,244.06,Approved
+1690,30572,2022-12-23,Wrong Item,336.04,Approved
+1691,30594,2022-06-03,Not as Described,145.84,Rejected
+1692,30614,2025-09-20,Late Delivery,393.46,Approved
+1693,30626,2025-11-08,Changed Mind,257.98,Rejected
+1694,30630,2022-10-14,Late Delivery,116.34,Rejected
+1695,30651,2025-07-27,Late Delivery,254.33,Approved
+1696,30652,2025-07-14,Changed Mind,173.52,Approved
+1697,30653,2022-06-21,Changed Mind,39.44,Approved
+1698,30661,2025-06-01,Changed Mind,371.8,Approved
+1699,30668,2024-10-20,Wrong Item,262.0,Approved
+1700,30701,2023-01-23,Damaged,718.1,Rejected
+1701,30717,2023-01-13,Late Delivery,155.8,Approved
+1702,30767,2023-09-24,Late Delivery,129.65,Rejected
+1703,30803,2022-08-11,Damaged,275.09,Approved
+1704,30850,2022-12-17,Changed Mind,167.11,Rejected
+1705,30852,2022-12-18,Not as Described,612.1,Rejected
+1706,30868,2024-06-07,Damaged,646.64,Approved
+1707,30901,2023-10-24,Not as Described,1484.07,Approved
+1708,30932,2025-02-22,Changed Mind,31.81,Rejected
+1709,30957,2025-11-23,Not as Described,391.12,Rejected
+1710,30965,2024-11-18,Not as Described,513.5,Rejected
+1711,30988,2024-12-20,Not as Described,86.11,Approved
+1712,31029,2022-09-14,Late Delivery,175.07,Rejected
+1713,31034,2022-04-01,Not as Described,56.05,Approved
+1714,31044,2025-06-12,Not as Described,80.3,Rejected
+1715,31063,2022-03-19,Changed Mind,173.79,Approved
+1716,31088,2023-06-08,Late Delivery,153.46,Rejected
+1717,31105,2024-05-15,Damaged,377.7,Approved
+1718,31133,2023-12-01,Changed Mind,434.68,Rejected
+1719,31138,2024-07-07,Damaged,1154.86,Approved
+1720,31285,2023-05-24,Late Delivery,1328.86,Approved
+1721,31325,2023-10-29,Late Delivery,241.55,Approved
+1722,31379,2023-11-03,Damaged,926.08,Approved
+1723,31381,2026-01-02,Not as Described,205.78,Approved
+1724,31399,2024-05-13,Damaged,76.61,Approved
+1725,31424,2022-12-11,Changed Mind,147.36,Rejected
+1726,31445,2023-08-31,Changed Mind,222.82,Approved
+1727,31446,2025-09-05,Changed Mind,238.58,Approved
+1728,31449,2025-09-07,Changed Mind,394.99,Approved
+1729,31451,2024-08-04,Changed Mind,318.91,Approved
+1730,31479,2022-12-19,Changed Mind,252.77,Approved
+1731,31495,2022-05-21,Changed Mind,151.72,Approved
+1732,31520,2023-11-28,Changed Mind,204.31,Approved
+1733,31528,2023-04-29,Not as Described,234.23,Rejected
+1734,31637,2023-12-24,Late Delivery,359.39,Approved
+1735,31654,2024-06-21,Late Delivery,292.04,Approved
+1736,31656,2024-12-26,Not as Described,107.42,Rejected
+1737,31670,2025-08-31,Not as Described,1013.76,Approved
+1738,31716,2023-10-13,Changed Mind,255.8,Approved
+1739,31720,2025-11-23,Changed Mind,579.55,Approved
+1740,31721,2025-11-29,Changed Mind,1438.71,Rejected
+1741,31744,2022-04-28,Damaged,281.29,Approved
+1742,31750,2022-06-12,Not as Described,3442.48,Approved
+1743,31754,2022-10-01,Wrong Item,53.33,Approved
+1744,31768,2025-06-13,Late Delivery,160.01,Approved
+1745,31772,2025-09-18,Changed Mind,462.57,Approved
+1746,31790,2023-09-09,Not as Described,240.8,Approved
+1747,31798,2025-06-28,Damaged,71.7,Approved
+1748,31804,2022-08-13,Damaged,500.61,Rejected
+1749,31818,2025-09-16,Damaged,335.78,Approved
+1750,31848,2022-06-20,Not as Described,181.06,Rejected
+1751,31849,2022-06-10,Not as Described,66.65,Approved
+1752,31889,2022-12-20,Damaged,988.86,Rejected
+1753,31892,2023-06-07,Changed Mind,187.57,Rejected
+1754,31895,2023-06-14,Changed Mind,94.96,Approved
+1755,31898,2024-01-18,Not as Described,1315.02,Approved
+1756,31904,2025-12-11,Changed Mind,701.03,Rejected
+1757,31952,2022-05-29,Late Delivery,60.56,Approved
+1758,31962,2024-07-13,Changed Mind,643.57,Approved
+1759,31965,2023-11-08,Changed Mind,303.18,Rejected
+1760,31966,2023-11-05,Changed Mind,177.63,Approved
+1761,31971,2024-07-12,Wrong Item,26.85,Rejected
+1762,31978,2024-01-16,Changed Mind,435.28,Rejected
+1763,31987,2022-11-17,Damaged,402.64,Rejected
+1764,31997,2024-02-20,Changed Mind,653.07,Approved
+1765,32048,2025-12-06,Not as Described,2884.93,Approved
+1766,32067,2024-01-22,Damaged,261.51,Approved
+1767,32075,2023-04-08,Not as Described,41.65,Approved
+1768,32115,2023-07-09,Late Delivery,67.35,Approved
+1769,32154,2025-12-12,Damaged,53.3,Approved
+1770,32157,2025-04-21,Not as Described,415.93,Rejected
+1771,32172,2024-05-24,Not as Described,329.46,Rejected
+1772,32174,2023-03-02,Not as Described,709.09,Approved
+1773,32179,2025-04-04,Not as Described,152.55,Approved
+1774,32184,2025-06-07,Not as Described,12.36,Approved
+1775,32208,2025-01-10,Changed Mind,48.64,Approved
+1776,32225,2025-12-22,Changed Mind,596.32,Approved
+1777,32241,2025-06-14,Damaged,326.67,Rejected
+1778,32280,2025-11-22,Damaged,322.76,Approved
+1779,32304,2022-05-10,Late Delivery,1468.29,Rejected
+1780,32329,2024-10-28,Damaged,242.5,Rejected
+1781,32331,2022-09-02,Changed Mind,231.56,Rejected
+1782,32358,2023-06-08,Changed Mind,820.96,Approved
+1783,32398,2025-11-03,Wrong Item,51.65,Rejected
+1784,32406,2024-12-03,Changed Mind,336.57,Approved
+1785,32426,2025-10-13,Wrong Item,386.96,Rejected
+1786,32483,2025-05-02,Not as Described,1498.54,Approved
+1787,32485,2024-05-23,Wrong Item,393.51,Approved
+1788,32500,2023-09-29,Changed Mind,330.83,Rejected
+1789,32502,2022-03-25,Damaged,90.45,Approved
+1790,32535,2024-09-20,Damaged,82.92,Approved
+1791,32543,2024-01-07,Wrong Item,1427.68,Rejected
+1792,32597,2024-01-12,Damaged,38.02,Rejected
+1793,32604,2023-12-01,Changed Mind,215.85,Rejected
+1794,32625,2026-01-24,Damaged,641.9,Approved
+1795,32635,2024-02-20,Late Delivery,378.73,Approved
+1796,32688,2025-05-03,Late Delivery,534.86,Rejected
+1797,32710,2025-11-26,Damaged,74.43,Approved
+1798,32728,2022-04-27,Not as Described,1315.23,Approved
+1799,32749,2022-12-16,Changed Mind,240.14,Approved
+1800,32754,2025-09-27,Changed Mind,133.55,Approved
+1801,32755,2025-10-12,Not as Described,207.45,Rejected
+1802,32826,2025-02-06,Damaged,106.8,Rejected
+1803,32831,2025-04-06,Damaged,158.51,Approved
+1804,32834,2026-01-15,Changed Mind,179.85,Approved
+1805,32850,2022-10-18,Changed Mind,487.16,Approved
+1806,32910,2025-05-26,Changed Mind,230.61,Approved
+1807,32958,2024-01-18,Not as Described,84.76,Approved
+1808,32990,2024-03-20,Late Delivery,620.22,Approved
+1809,33107,2022-05-04,Changed Mind,370.26,Rejected
+1810,33121,2022-07-16,Changed Mind,294.24,Approved
+1811,33127,2024-08-04,Changed Mind,1119.46,Rejected
+1812,33148,2023-01-13,Wrong Item,209.44,Rejected
+1813,33164,2024-12-06,Late Delivery,229.19,Approved
+1814,33199,2024-11-16,Not as Described,37.78,Approved
+1815,33225,2022-08-26,Changed Mind,145.19,Approved
+1816,33229,2023-06-23,Damaged,194.51,Approved
+1817,33237,2022-09-25,Wrong Item,36.45,Rejected
+1818,33238,2022-09-21,Not as Described,58.15,Approved
+1819,33283,2024-05-05,Changed Mind,136.61,Approved
+1820,33285,2024-05-04,Damaged,428.72,Approved
+1821,33287,2022-05-23,Late Delivery,213.77,Approved
+1822,33321,2022-07-07,Not as Described,175.36,Approved
+1823,33337,2025-06-09,Late Delivery,279.48,Rejected
+1824,33412,2023-12-03,Not as Described,172.76,Approved
+1825,33422,2022-11-20,Changed Mind,54.28,Approved
+1826,33425,2022-01-28,Late Delivery,368.03,Approved
+1827,33498,2024-01-02,Not as Described,1980.67,Rejected
+1828,33531,2022-11-09,Changed Mind,532.97,Approved
+1829,33534,2022-11-10,Damaged,190.32,Approved
+1830,33540,2025-09-16,Changed Mind,471.71,Approved
+1831,33547,2022-11-19,Damaged,118.48,Approved
+1832,33562,2022-04-17,Not as Described,1093.7,Rejected
+1833,33563,2023-12-29,Late Delivery,219.93,Rejected
+1834,33593,2023-10-08,Not as Described,366.34,Approved
+1835,33599,2024-10-30,Not as Described,766.99,Rejected
+1836,33600,2025-08-29,Wrong Item,258.15,Rejected
+1837,33603,2025-09-11,Changed Mind,386.85,Approved
+1838,33625,2025-01-28,Changed Mind,180.91,Approved
+1839,33626,2023-12-31,Damaged,769.69,Approved
+1840,33645,2023-12-05,Damaged,52.03,Approved
+1841,33653,2024-11-21,Changed Mind,924.63,Rejected
+1842,33666,2024-12-14,Late Delivery,1824.01,Approved
+1843,33668,2025-01-04,Changed Mind,89.5,Approved
+1844,33677,2024-06-08,Not as Described,643.52,Rejected
+1845,33688,2023-04-27,Damaged,1023.84,Approved
+1846,33702,2025-12-04,Wrong Item,302.39,Approved
+1847,33710,2024-04-25,Changed Mind,134.43,Rejected
+1848,33711,2024-03-27,Damaged,117.77,Approved
+1849,33747,2025-01-05,Changed Mind,101.73,Approved
+1850,33756,2023-04-05,Changed Mind,334.79,Approved
+1851,33758,2022-09-01,Not as Described,162.55,Rejected
+1852,33759,2022-08-13,Changed Mind,646.34,Rejected
+1853,33764,2022-04-21,Not as Described,379.13,Approved
+1854,33792,2023-12-19,Wrong Item,426.7,Rejected
+1855,33795,2023-09-01,Wrong Item,137.03,Rejected
+1856,33825,2025-06-29,Changed Mind,455.5,Rejected
+1857,33844,2025-10-31,Changed Mind,119.91,Approved
+1858,33854,2025-06-19,Not as Described,314.54,Rejected
+1859,33881,2023-09-03,Not as Described,430.95,Approved
+1860,33904,2025-09-20,Late Delivery,472.18,Rejected
+1861,33907,2023-04-18,Damaged,1277.99,Approved
+1862,33924,2022-10-24,Damaged,521.92,Approved
+1863,33940,2024-05-29,Late Delivery,412.76,Approved
+1864,33943,2022-08-14,Not as Described,196.57,Rejected
+1865,33946,2023-12-19,Damaged,253.41,Approved
+1866,33959,2022-01-29,Wrong Item,38.28,Approved
+1867,33996,2025-10-09,Not as Described,343.27,Rejected
+1868,34003,2023-07-16,Wrong Item,242.7,Rejected
+1869,34065,2023-07-25,Not as Described,772.76,Approved
+1870,34083,2025-09-10,Not as Described,467.03,Approved
+1871,34123,2022-02-06,Changed Mind,218.24,Rejected
+1872,34160,2024-10-10,Changed Mind,194.55,Rejected
+1873,34210,2022-09-29,Late Delivery,145.17,Approved
+1874,34236,2024-01-09,Changed Mind,40.34,Rejected
+1875,34238,2024-01-15,Damaged,1735.66,Rejected
+1876,34261,2022-04-16,Late Delivery,348.05,Approved
+1877,34267,2025-01-01,Late Delivery,2399.31,Rejected
+1878,34272,2022-07-08,Wrong Item,265.31,Approved
+1879,34273,2022-07-08,Wrong Item,1580.27,Approved
+1880,34279,2022-11-21,Changed Mind,582.33,Approved
+1881,34302,2025-01-18,Not as Described,174.45,Rejected
+1882,34335,2023-11-09,Not as Described,155.57,Approved
+1883,34352,2024-03-14,Damaged,226.33,Approved
+1884,34363,2022-10-26,Wrong Item,230.31,Approved
+1885,34390,2022-02-18,Damaged,273.07,Rejected
+1886,34396,2025-12-18,Not as Described,822.37,Rejected
+1887,34405,2022-04-10,Wrong Item,196.44,Rejected
+1888,34409,2022-11-25,Changed Mind,209.8,Approved
+1889,34456,2022-12-05,Not as Described,355.59,Approved
+1890,34467,2024-08-08,Damaged,1405.05,Rejected
+1891,34505,2024-10-17,Not as Described,470.43,Approved
+1892,34511,2023-10-24,Damaged,221.02,Rejected
+1893,34545,2025-05-13,Changed Mind,486.23,Approved
+1894,34604,2024-04-20,Changed Mind,294.07,Approved
+1895,34614,2024-08-11,Not as Described,47.87,Rejected
+1896,34615,2024-08-07,Changed Mind,315.45,Approved
+1897,34625,2022-11-30,Changed Mind,31.69,Approved
+1898,34641,2022-05-25,Changed Mind,592.02,Rejected
+1899,34659,2023-01-15,Changed Mind,248.35,Rejected
+1900,34666,2024-06-06,Damaged,604.92,Rejected
+1901,34667,2024-06-07,Changed Mind,331.24,Rejected
+1902,34674,2024-10-21,Damaged,510.9,Rejected
+1903,34695,2023-10-22,Not as Described,846.24,Rejected
+1904,34745,2024-12-19,Changed Mind,413.78,Approved
+1905,34781,2023-06-15,Damaged,907.07,Approved
+1906,34796,2023-01-18,Damaged,110.24,Approved
+1907,34799,2023-01-09,Changed Mind,371.42,Approved
+1908,34801,2023-01-10,Changed Mind,408.92,Approved
+1909,34802,2023-04-07,Not as Described,1125.47,Approved
+1910,34806,2025-11-19,Not as Described,178.88,Rejected
+1911,34814,2023-11-11,Changed Mind,120.12,Rejected
+1912,34840,2023-03-16,Changed Mind,254.42,Rejected
+1913,34867,2023-01-09,Damaged,450.81,Rejected
+1914,34878,2025-01-09,Late Delivery,309.37,Approved
+1915,34879,2025-01-27,Not as Described,117.31,Approved
+1916,34891,2025-05-10,Not as Described,206.17,Rejected
+1917,34896,2022-04-24,Late Delivery,215.94,Approved
+1918,34915,2025-07-19,Wrong Item,964.44,Approved
+1919,34919,2023-12-08,Changed Mind,117.76,Rejected
+1920,34973,2025-11-05,Changed Mind,34.01,Approved
+1921,35020,2022-07-03,Late Delivery,363.41,Approved
+1922,35040,2025-02-24,Damaged,247.78,Approved
+1923,35053,2022-04-17,Not as Described,658.3,Approved
+1924,35054,2022-04-18,Not as Described,317.81,Approved
+1925,35061,2022-11-12,Changed Mind,475.64,Rejected
+1926,35063,2024-02-14,Not as Described,91.39,Rejected
+1927,35086,2025-10-15,Not as Described,193.89,Approved
+1928,35090,2022-04-06,Not as Described,470.37,Approved
+1929,35092,2022-04-12,Changed Mind,991.17,Approved
+1930,35108,2022-03-20,Not as Described,116.28,Approved
+1931,35115,2023-07-11,Damaged,275.9,Rejected
+1932,35140,2025-12-26,Late Delivery,91.36,Approved
+1933,35151,2023-12-27,Changed Mind,270.69,Approved
+1934,35167,2025-11-14,Wrong Item,549.4,Rejected
+1935,35178,2023-10-05,Changed Mind,316.87,Approved
+1936,35184,2023-07-18,Damaged,328.94,Approved
+1937,35186,2023-07-28,Changed Mind,216.19,Rejected
+1938,35230,2023-07-10,Changed Mind,289.7,Rejected
+1939,35231,2025-04-15,Late Delivery,478.16,Approved
+1940,35235,2023-09-14,Changed Mind,226.93,Rejected
+1941,35241,2022-05-23,Changed Mind,272.7,Approved
+1942,35310,2024-08-14,Late Delivery,231.78,Rejected
+1943,35331,2025-10-08,Not as Described,93.23,Approved
+1944,35358,2022-11-24,Late Delivery,231.26,Approved
+1945,35363,2025-02-19,Not as Described,255.04,Approved
+1946,35364,2025-02-16,Changed Mind,83.4,Approved
+1947,35417,2022-10-29,Wrong Item,594.14,Approved
+1948,35448,2025-02-14,Not as Described,13.81,Approved
+1949,35453,2022-12-15,Not as Described,348.59,Approved
+1950,35454,2022-12-20,Changed Mind,1750.61,Approved
+1951,35463,2025-12-16,Not as Described,1294.72,Approved
+1952,35467,2023-12-13,Damaged,213.3,Approved
+1953,35472,2022-12-12,Not as Described,26.39,Rejected
+1954,35491,2023-12-10,Late Delivery,65.92,Rejected
+1955,35509,2023-05-07,Changed Mind,132.81,Approved
+1956,35523,2022-12-04,Damaged,548.19,Approved
+1957,35533,2023-04-25,Not as Described,282.25,Approved
+1958,35545,2022-02-23,Changed Mind,271.77,Rejected
+1959,35555,2025-08-05,Not as Described,476.62,Rejected
+1960,35561,2024-06-13,Damaged,858.31,Approved
+1961,35584,2025-10-28,Not as Described,48.35,Approved
+1962,35589,2023-12-05,Late Delivery,72.8,Approved
+1963,35594,2023-09-01,Not as Described,297.93,Approved
+1964,35673,2025-06-29,Damaged,1365.06,Approved
+1965,35715,2022-09-20,Damaged,556.75,Approved
+1966,35717,2025-11-06,Changed Mind,306.19,Approved
+1967,35755,2025-06-14,Late Delivery,74.0,Approved
+1968,35756,2025-07-10,Changed Mind,199.96,Rejected
+1969,35771,2023-01-19,Wrong Item,581.67,Approved
+1970,35783,2022-09-07,Damaged,444.89,Approved
+1971,35789,2025-03-08,Changed Mind,117.84,Rejected
+1972,35797,2025-10-09,Wrong Item,891.66,Approved
+1973,35808,2022-02-11,Damaged,1165.29,Approved
+1974,35832,2023-09-11,Damaged,257.28,Rejected
+1975,35833,2023-09-21,Wrong Item,970.08,Approved
+1976,35906,2023-03-25,Not as Described,423.59,Approved
+1977,35922,2025-01-06,Damaged,1507.77,Approved
+1978,35936,2023-07-02,Damaged,414.94,Approved
+1979,35959,2025-06-21,Wrong Item,114.22,Approved
+1980,35965,2024-05-03,Damaged,29.03,Approved
+1981,35975,2025-09-17,Changed Mind,179.05,Approved
+1982,35985,2022-06-15,Late Delivery,829.98,Approved
+1983,35990,2025-10-20,Not as Described,95.09,Approved
+1984,36025,2024-10-30,Changed Mind,167.8,Approved
+1985,36048,2022-12-03,Changed Mind,155.52,Rejected
+1986,36057,2025-08-28,Changed Mind,308.84,Approved
+1987,36083,2022-11-28,Damaged,277.78,Rejected
+1988,36108,2023-05-05,Wrong Item,57.3,Rejected
+1989,36124,2024-12-07,Wrong Item,378.53,Rejected
+1990,36125,2024-12-25,Changed Mind,425.36,Approved
+1991,36153,2025-04-17,Damaged,561.18,Rejected
+1992,36256,2023-01-08,Wrong Item,521.03,Approved
+1993,36276,2025-02-10,Damaged,276.37,Approved
+1994,36294,2025-12-17,Damaged,386.43,Rejected
+1995,36319,2022-05-23,Damaged,307.64,Rejected
+1996,36331,2025-04-03,Damaged,257.43,Approved
+1997,36333,2024-05-08,Changed Mind,456.31,Rejected
+1998,36339,2022-04-13,Changed Mind,257.59,Approved
+1999,36381,2022-07-02,Changed Mind,194.95,Approved
+2000,36430,2024-01-27,Not as Described,272.54,Approved
+2001,36437,2023-11-10,Changed Mind,663.43,Approved
+2002,36474,2025-12-31,Not as Described,495.61,Approved
+2003,36487,2026-01-01,Not as Described,245.67,Approved
+2004,36511,2022-01-29,Wrong Item,378.53,Approved
+2005,36525,2022-09-17,Changed Mind,794.81,Approved
+2006,36557,2025-06-17,Changed Mind,71.19,Rejected
+2007,36559,2025-06-27,Damaged,577.78,Approved
+2008,36564,2023-12-29,Changed Mind,726.5,Approved
+2009,36579,2025-11-24,Changed Mind,1501.58,Approved
+2010,36580,2024-07-11,Damaged,1444.96,Rejected
+2011,36584,2024-01-31,Wrong Item,558.17,Approved
+2012,36597,2023-01-07,Damaged,36.27,Approved
+2013,36601,2023-02-16,Changed Mind,595.07,Approved
+2014,36602,2023-03-12,Not as Described,39.42,Approved
+2015,36607,2023-05-10,Not as Described,320.2,Approved
+2016,36653,2025-07-26,Wrong Item,211.39,Approved
+2017,36660,2024-12-14,Not as Described,497.29,Approved
+2018,36665,2025-01-05,Not as Described,896.25,Approved
+2019,36679,2024-02-03,Not as Described,2505.89,Approved
+2020,36699,2024-02-01,Not as Described,151.11,Rejected
+2021,36729,2025-08-07,Damaged,928.68,Approved
+2022,36739,2022-05-12,Changed Mind,304.52,Approved
+2023,36744,2024-02-26,Damaged,248.62,Rejected
+2024,36774,2024-11-02,Not as Described,3142.17,Approved
+2025,36786,2022-09-09,Wrong Item,361.48,Rejected
+2026,36802,2024-06-12,Changed Mind,1381.47,Approved
+2027,36811,2025-11-02,Changed Mind,3090.62,Approved
+2028,36823,2022-07-14,Wrong Item,163.5,Rejected
+2029,36832,2022-03-23,Changed Mind,567.77,Approved
+2030,36837,2025-02-19,Not as Described,191.57,Approved
+2031,36888,2024-12-09,Not as Described,179.15,Approved
+2032,36897,2024-10-05,Wrong Item,102.75,Approved
+2033,36909,2023-10-20,Wrong Item,287.74,Approved
+2034,36910,2023-10-06,Changed Mind,97.72,Approved
+2035,36922,2023-05-15,Late Delivery,401.58,Rejected
+2036,36934,2025-11-25,Not as Described,917.58,Approved
+2037,36974,2023-05-29,Not as Described,141.18,Rejected
+2038,36987,2025-05-05,Changed Mind,254.1,Rejected
+2039,36996,2025-12-01,Damaged,290.09,Rejected
+2040,37007,2023-12-19,Damaged,522.21,Rejected
+2041,37010,2022-04-20,Not as Described,516.36,Approved
+2042,37020,2025-02-06,Damaged,225.83,Approved
+2043,37035,2025-03-26,Not as Described,514.28,Approved
+2044,37041,2023-02-12,Changed Mind,245.8,Approved
+2045,37045,2025-07-21,Changed Mind,159.67,Approved
+2046,37067,2025-04-27,Damaged,1596.55,Approved
+2047,37080,2025-07-30,Changed Mind,24.13,Approved
+2048,37115,2023-03-08,Not as Described,881.77,Approved
+2049,37157,2025-11-26,Changed Mind,425.35,Approved
+2050,37158,2022-06-25,Damaged,374.09,Rejected
+2051,37192,2022-06-13,Damaged,801.48,Approved
+2052,37238,2024-02-03,Not as Described,97.76,Approved
+2053,37259,2022-08-05,Not as Described,2349.75,Approved
+2054,37306,2024-11-30,Damaged,823.62,Approved
+2055,37372,2024-02-23,Wrong Item,455.96,Approved
+2056,37381,2026-01-19,Wrong Item,100.25,Rejected
+2057,37467,2022-09-19,Changed Mind,100.27,Approved
+2058,37483,2025-11-05,Changed Mind,610.83,Rejected
+2059,37487,2022-11-30,Wrong Item,459.15,Rejected
+2060,37518,2025-02-02,Changed Mind,667.84,Approved
+2061,37528,2023-07-20,Changed Mind,197.3,Rejected
+2062,37557,2023-11-05,Changed Mind,568.06,Approved
+2063,37562,2023-11-30,Damaged,46.98,Approved
+2064,37567,2024-04-23,Damaged,2116.45,Approved
+2065,37665,2025-09-19,Wrong Item,749.54,Rejected
+2066,37682,2024-12-05,Damaged,104.63,Approved
+2067,37717,2025-11-21,Wrong Item,67.12,Approved
+2068,37774,2024-12-04,Damaged,500.91,Rejected
+2069,37780,2022-12-11,Changed Mind,1002.12,Rejected
+2070,37785,2023-02-17,Changed Mind,843.78,Rejected
+2071,37787,2023-09-07,Damaged,204.66,Approved
+2072,37797,2023-06-06,Damaged,421.81,Approved
+2073,37799,2022-03-20,Not as Described,343.09,Approved
+2074,37808,2022-12-21,Late Delivery,155.68,Rejected
+2075,37820,2025-10-24,Wrong Item,330.4,Rejected
+2076,37822,2025-10-24,Damaged,323.28,Rejected
+2077,37823,2026-01-11,Changed Mind,136.37,Approved
+2078,37858,2022-10-25,Wrong Item,201.23,Rejected
+2079,37867,2024-03-05,Late Delivery,482.63,Approved

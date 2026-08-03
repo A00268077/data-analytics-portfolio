@@ -1,0 +1,9 @@
+region_id,country,market,currency
+1,Ireland,Europe,EUR
+2,United Kingdom,Europe,GBP
+3,Germany,Europe,EUR
+4,France,Europe,EUR
+5,Spain,Europe,EUR
+6,Netherlands,Europe,EUR
+7,United States,North America,USD
+8,Canada,North America,CAD

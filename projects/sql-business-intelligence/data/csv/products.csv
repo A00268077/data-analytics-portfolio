@@ -1,0 +1,251 @@
+product_id,product_name,category_id,supplier_id,unit_cost,list_price,status
+1,Essential Power Bank 001,1,24,342.48,516.14,Discontinued
+2,Eco Air Fryer 002,2,12,185.69,242.24,Active
+3,Ultra Printer 003,3,4,476.29,716.0,Active
+4,Classic Water Bottle 004,4,13,162.5,297.81,Active
+5,Pro Makeup Kit 005,5,22,193.54,281.43,Active
+6,Ultra Sunglasses 006,6,14,10.68,17.98,Active
+7,Ultra Building Set 007,7,17,157.34,224.85,Active
+8,Premium Jump Starter 008,8,5,176.29,302.72,Active
+9,Premium Tablet Stand 009,1,20,33.28,60.15,Active
+10,Smart Cookware Set 010,2,8,309.13,562.05,Active
+11,Advanced Notebook Pack 011,3,24,586.9,921.21,Active
+12,Advanced Camping Chair 012,4,5,85.4,151.45,Discontinued
+13,Essential Perfume 013,5,7,179.96,268.03,Active
+14,Essential Sunglasses 014,6,15,35.41,49.04,Active
+15,Wireless Remote Car 015,7,1,107.98,135.44,Active
+16,Pro Car Vacuum 016,8,8,276.21,357.01,Active
+17,Advanced Webcam 017,1,9,254.17,428.03,Discontinued
+18,Advanced Storage Set 018,2,8,78.79,103.07,Discontinued
+19,Classic Calculator 019,3,12,282.88,477.34,Active
+20,Classic Resistance Bands 020,4,2,241.77,318.06,Active
+21,Essential Bath Set 021,5,7,40.2,54.68,Discontinued
+22,Pro Sunglasses 022,6,8,179.68,316.88,Active
+23,Essential Board Game 023,7,2,174.57,315.24,Active
+24,Classic Tool Set 024,8,6,158.18,279.79,Active
+25,Classic Headphones 025,1,6,443.76,625.31,Discontinued
+26,Classic Lamp 026,2,10,66.86,95.48,Active
+27,Essential Desk Chair 027,3,19,450.05,578.0,Discontinued
+28,Essential Camping Chair 028,4,17,24.61,38.26,Active
+29,Wireless Skin Care Set 029,5,3,170.75,237.53,Active
+30,Eco Jacket 030,6,19,140.07,210.32,Active
+31,Eco Doll 031,7,9,46.77,69.57,Active
+32,Premium Phone Mount 032,8,15,10.91,17.7,Active
+33,Essential Webcam 033,1,3,240.0,319.07,Active
+34,Eco Coffee Maker 034,2,3,110.47,167.13,Active
+35,Essential Desk Chair 035,3,20,402.38,636.87,Active
+36,Compact Dumbbell Set 036,4,5,267.8,454.04,Active
+37,Compact Perfume 037,5,9,181.1,248.5,Active
+38,Advanced Backpack 038,6,17,200.12,351.74,Active
+39,Classic Science Kit 039,7,21,12.72,18.45,Active
+40,Compact Jump Starter 040,8,21,239.26,378.27,Discontinued
+41,Smart Keyboard 041,1,18,56.98,101.42,Active
+42,Smart Coffee Maker 042,2,18,210.14,281.35,Active
+43,Compact Whiteboard 043,3,2,539.89,932.75,Active
+44,Eco Backpack 044,4,12,202.74,296.45,Discontinued
+45,Ultra Perfume 045,5,20,216.96,398.28,Active
+46,Smart T-Shirt 046,6,14,164.68,238.67,Discontinued
+47,Eco Science Kit 047,7,22,32.86,54.9,Discontinued
+48,Advanced Cleaning Kit 048,8,2,70.27,126.56,Active
+49,Eco Webcam 049,1,10,35.06,47.89,Active
+50,Pro Vacuum 050,2,9,132.63,206.32,Active
+51,Pro Desk Organizer 051,3,1,111.25,203.31,Active
+52,Pro Helmet 052,4,2,108.94,187.58,Discontinued
+53,Essential Skin Care Set 053,5,20,99.99,159.58,Active
+54,Classic Jacket 054,6,2,119.18,206.65,Active
+55,Classic Building Set 055,7,12,171.05,308.31,Active
+56,Pro Seat Cover 056,8,22,166.22,274.29,Active
+57,Compact Monitor 057,1,13,106.53,175.66,Discontinued
+58,Ultra Vacuum 058,2,22,151.04,264.36,Active
+59,Eco Calculator 059,3,10,472.53,762.66,Active
+60,Advanced Water Bottle 060,4,15,205.28,319.56,Active
+61,Pro Makeup Kit 061,5,22,131.77,214.75,Active
+62,Eco Backpack 062,6,3,57.17,78.29,Active
+63,Eco Art Set 063,7,2,111.97,191.59,Discontinued
+64,Wireless Cleaning Kit 064,8,14,232.12,343.63,Discontinued
+65,Ultra Headphones 065,1,8,404.38,714.24,Active
+66,Classic Cookware Set 066,2,25,73.92,134.89,Discontinued
+67,Essential Shredder 067,3,2,550.89,728.73,Active
+68,Essential Resistance Bands 068,4,15,285.41,509.42,Discontinued
+69,Advanced Electric Shaver 069,5,18,187.45,287.7,Active
+70,Eco Backpack 070,6,25,170.82,266.95,Active
+71,Advanced Building Set 071,7,9,129.87,180.61,Active
+72,Essential Phone Mount 072,8,11,51.17,71.06,Active
+73,Eco Keyboard 073,1,23,201.32,291.62,Discontinued
+74,Smart Cookware Set 074,2,14,294.02,436.23,Active
+75,Wireless Calculator 075,3,25,288.8,524.36,Active
+76,Classic Helmet 076,4,25,165.16,279.25,Active
+77,Eco Makeup Kit 077,5,16,112.34,142.38,Active
+78,Classic T-Shirt 078,6,22,186.51,336.04,Active
+79,Wireless Board Game 079,7,13,19.69,29.68,Discontinued
+80,Smart Seat Cover 080,8,6,126.28,173.89,Active
+81,Classic Power Bank 081,1,11,344.6,602.76,Active
+82,Advanced Blender 082,2,3,265.92,340.71,Active
+83,Pro Desk Chair 083,3,8,453.77,825.76,Active
+84,Wireless Camping Chair 084,4,1,77.66,119.14,Active
+85,Eco Bath Set 085,5,19,176.67,302.13,Active
+86,Wireless Running Shoes 086,6,20,173.34,233.71,Active
+87,Wireless Board Game 087,7,4,167.56,267.34,Discontinued
+88,Eco Phone Mount 088,8,13,192.73,336.96,Active
+89,Compact Keyboard 089,1,4,363.4,577.65,Active
+90,Essential Storage Set 090,2,12,236.61,305.55,Active
+91,Classic Filing Cabinet 091,3,1,67.8,123.83,Discontinued
+92,Ultra Helmet 092,4,23,59.43,92.89,Active
+93,Essential Bath Set 093,5,20,119.43,208.46,Active
+94,Eco Running Shoes 094,6,11,68.57,104.26,Discontinued
+95,Wireless Card Game 095,7,19,63.87,98.78,Active
+96,Advanced Cleaning Kit 096,8,6,118.71,166.79,Active
+97,Compact Headphones 097,1,20,244.57,333.75,Active
+98,Classic Lamp 098,2,24,200.98,280.21,Discontinued
+99,Advanced Filing Cabinet 099,3,21,476.8,622.62,Active
+100,Eco Fitness Tracker 100,4,13,201.88,297.05,Active
+101,Essential Massager 101,5,14,91.84,139.8,Active
+102,Eco Running Shoes 102,6,9,161.47,232.41,Active
+103,Eco Art Set 103,7,7,53.39,85.62,Active
+104,Eco Seat Cover 104,8,4,78.97,107.21,Active
+105,Essential Monitor 105,1,23,141.58,259.74,Active
+106,Ultra Lamp 106,2,23,49.37,62.08,Active
+107,Advanced Filing Cabinet 107,3,16,207.72,379.98,Active
+108,Pro Dumbbell Set 108,4,16,125.01,161.82,Active
+109,Ultra Makeup Kit 109,5,5,26.78,37.46,Discontinued
+110,Wireless Jeans 110,6,20,172.9,255.59,Discontinued
+111,Wireless Card Game 111,7,10,58.44,94.83,Active
+112,Eco Cleaning Kit 112,8,25,90.57,117.62,Active
+113,Essential Keyboard 113,1,6,91.53,136.85,Discontinued
+114,Smart Cookware Set 114,2,10,111.52,158.32,Discontinued
+115,Eco Desk Organizer 115,3,3,473.76,769.88,Active
+116,Pro Backpack 116,4,14,197.11,353.82,Active
+117,Smart Electric Shaver 117,5,3,199.4,320.44,Active
+118,Pro Sunglasses 118,6,15,154.62,258.19,Active
+119,Essential Art Set 119,7,17,81.61,131.3,Discontinued
+120,Premium Seat Cover 120,8,24,16.07,22.29,Active
+121,Compact Headphones 121,1,25,349.32,473.37,Discontinued
+122,Ultra Storage Set 122,2,9,227.65,351.73,Active
+123,Premium Calculator 123,3,16,203.32,335.9,Active
+124,Classic Water Bottle 124,4,11,92.16,167.47,Active
+125,Pro Massager 125,5,15,67.59,89.19,Discontinued
+126,Smart Sunglasses 126,6,17,96.78,131.87,Active
+127,Advanced Art Set 127,7,20,138.0,189.35,Active
+128,Advanced Tool Set 128,8,10,45.88,84.14,Active
+129,Ultra Power Bank 129,1,23,259.11,409.74,Active
+130,Pro Lamp 130,2,8,332.27,544.47,Active
+131,Compact Desk Organizer 131,3,16,252.22,388.29,Discontinued
+132,Advanced Camping Chair 132,4,8,120.01,216.39,Active
+133,Compact Toothbrush 133,5,3,88.93,153.19,Active
+134,Compact Backpack 134,6,1,185.87,297.01,Discontinued
+135,Advanced Art Set 135,7,5,65.4,103.41,Discontinued
+136,Premium Cleaning Kit 136,8,15,314.0,437.49,Discontinued
+137,Classic Headphones 137,1,8,160.22,245.74,Discontinued
+138,Ultra Lamp 138,2,13,338.22,448.39,Active
+139,Advanced Notebook Pack 139,3,4,317.94,484.59,Active
+140,Ultra Dumbbell Set 140,4,14,145.09,265.74,Active
+141,Classic Skin Care Set 141,5,20,213.83,376.64,Discontinued
+142,Advanced Jacket 142,6,11,139.67,194.26,Active
+143,Pro Card Game 143,7,8,176.21,300.65,Active
+144,Ultra Seat Cover 144,8,15,289.87,370.34,Active
+145,Premium Speaker 145,1,10,208.04,290.53,Discontinued
+146,Ultra Air Fryer 146,2,19,73.65,119.0,Discontinued
+147,Eco Filing Cabinet 147,3,20,548.13,732.23,Discontinued
+148,Compact Water Bottle 148,4,21,82.56,103.67,Discontinued
+149,Essential Electric Shaver 149,5,10,24.02,43.65,Active
+150,Classic Backpack 150,6,21,105.94,151.63,Discontinued
+151,Pro Remote Car 151,7,16,71.74,105.13,Active
+152,Compact Car Vacuum 152,8,23,313.12,515.06,Active
+153,Wireless Headphones 153,1,1,412.01,699.22,Active
+154,Eco Coffee Maker 154,2,25,88.37,120.54,Active
+155,Ultra Notebook Pack 155,3,22,542.53,888.56,Active
+156,Smart Resistance Bands 156,4,15,221.85,289.31,Active
+157,Classic Electric Shaver 157,5,11,54.99,94.69,Active
+158,Essential Backpack 158,6,17,184.4,258.93,Discontinued
+159,Premium Building Set 159,7,10,86.96,112.63,Active
+160,Classic Tyre Inflator 160,8,22,36.17,53.78,Active
+161,Pro Tablet Stand 161,1,18,181.65,308.7,Active
+162,Classic Coffee Maker 162,2,19,51.3,71.32,Active
+163,Essential Whiteboard 163,3,20,549.58,759.97,Active
+164,Advanced Fitness Tracker 164,4,21,197.58,260.81,Active
+165,Compact Bath Set 165,5,2,34.33,47.75,Active
+166,Advanced Watch 166,6,13,150.8,255.74,Discontinued
+167,Ultra Card Game 167,7,19,119.61,209.34,Discontinued
+168,Smart Tyre Inflator 168,8,9,75.79,114.96,Active
+169,Pro Speaker 169,1,12,256.4,470.93,Active
+170,Classic Vacuum 170,2,2,78.59,104.0,Discontinued
+171,Eco Desk Chair 171,3,3,35.09,50.88,Active
+172,Eco Dumbbell Set 172,4,19,250.31,396.12,Active
+173,Premium Electric Shaver 173,5,8,198.43,318.99,Active
+174,Ultra Backpack 174,6,5,177.69,233.83,Active
+175,Smart Doll 175,7,5,143.25,199.51,Active
+176,Ultra Seat Cover 176,8,1,24.35,41.27,Active
+177,Pro Tablet Stand 177,1,24,215.52,316.22,Active
+178,Essential Cookware Set 178,2,15,331.71,423.27,Active
+179,Smart Desk Chair 179,3,15,599.16,1053.55,Discontinued
+180,Pro Water Bottle 180,4,22,216.02,327.52,Active
+181,Wireless Electric Shaver 181,5,11,22.03,31.17,Active
+182,Wireless Backpack 182,6,13,105.28,169.84,Active
+183,Pro Remote Car 183,7,23,80.26,143.09,Discontinued
+184,Advanced Dash Camera 184,8,11,137.79,180.1,Discontinued
+185,Compact Speaker 185,1,11,430.28,715.17,Discontinued
+186,Pro Kettle 186,2,3,46.23,60.47,Active
+187,Essential Desk Chair 187,3,5,353.95,561.7,Active
+188,Pro Helmet 188,4,22,111.25,183.47,Discontinued
+189,Smart Makeup Kit 189,5,24,152.5,222.8,Active
+190,Advanced Jeans 190,6,5,187.93,274.39,Active
+191,Compact Remote Car 191,7,4,146.26,256.99,Active
+192,Compact Car Vacuum 192,8,20,64.29,107.47,Active
+193,Premium Headphones 193,1,11,102.1,136.4,Discontinued
+194,Ultra Blender 194,2,3,45.74,71.73,Discontinued
+195,Advanced Whiteboard 195,3,14,98.66,141.77,Active
+196,Wireless Dumbbell Set 196,4,25,265.94,357.25,Active
+197,Pro Makeup Kit 197,5,22,114.12,171.68,Discontinued
+198,Compact Jeans 198,6,14,168.54,222.18,Discontinued
+199,Compact Art Set 199,7,4,97.21,139.5,Active
+200,Wireless Car Vacuum 200,8,13,10.4,14.88,Active
+201,Ultra Power Bank 201,1,25,148.02,195.68,Discontinued
+202,Classic Air Fryer 202,2,24,58.28,91.47,Active
+203,Essential Whiteboard 203,3,17,47.88,84.61,Active
+204,Smart Water Bottle 204,4,14,276.98,489.5,Discontinued
+205,Classic Toothbrush 205,5,19,76.64,114.43,Active
+206,Wireless Sunglasses 206,6,6,184.73,332.86,Active
+207,Pro Remote Car 207,7,14,81.24,121.07,Active
+208,Compact Tyre Inflator 208,8,13,77.13,132.47,Active
+209,Pro Webcam 209,1,17,410.02,598.48,Active
+210,Pro Air Fryer 210,2,8,100.75,136.43,Active
+211,Pro Printer 211,3,25,571.02,928.92,Discontinued
+212,Wireless Water Bottle 212,4,25,206.89,368.1,Active
+213,Premium Electric Shaver 213,5,21,113.3,173.5,Active
+214,Wireless Jacket 214,6,9,83.91,108.62,Discontinued
+215,Smart Board Game 215,7,15,69.53,98.89,Active
+216,Wireless Dash Camera 216,8,20,152.37,241.14,Active
+217,Wireless Webcam 217,1,15,161.65,248.19,Active
+218,Advanced Kettle 218,2,2,286.67,502.37,Active
+219,Ultra Desk Chair 219,3,17,152.41,230.54,Discontinued
+220,Essential Camping Chair 220,4,17,114.26,205.76,Discontinued
+221,Premium Hair Dryer 221,5,14,198.57,325.33,Active
+222,Pro Cap 222,6,11,69.67,117.34,Active
+223,Pro Puzzle 223,7,11,165.43,237.58,Discontinued
+224,Wireless Phone Mount 224,8,5,104.59,154.38,Active
+225,Essential Keyboard 225,1,5,299.56,450.55,Active
+226,Premium Vacuum 226,2,1,75.39,103.93,Discontinued
+227,Eco Printer 227,3,7,97.19,138.74,Active
+228,Essential Yoga Mat 228,4,17,201.28,357.44,Active
+229,Classic Electric Shaver 229,5,20,45.59,79.73,Active
+230,Advanced Jacket 230,6,24,96.28,159.42,Active
+231,Wireless Science Kit 231,7,15,136.67,235.11,Active
+232,Eco Seat Cover 232,8,18,309.27,532.14,Active
+233,Wireless Tablet Stand 233,1,12,221.21,313.91,Discontinued
+234,Essential Storage Set 234,2,17,338.7,589.38,Active
+235,Smart Filing Cabinet 235,3,9,525.1,831.09,Active
+236,Essential Dumbbell Set 236,4,23,91.24,155.83,Active
+237,Essential Electric Shaver 237,5,15,208.78,272.46,Active
+238,Premium Jacket 238,6,15,97.13,144.52,Active
+239,Classic Building Set 239,7,8,70.61,89.46,Active
+240,Premium Jump Starter 240,8,23,50.93,72.43,Discontinued
+241,Ultra Tablet Stand 241,1,23,215.66,270.25,Active
+242,Compact Cookware Set 242,2,1,294.71,465.43,Discontinued
+243,Compact Shredder 243,3,4,184.18,235.5,Discontinued
+244,Wireless Water Bottle 244,4,21,26.34,46.15,Discontinued
+245,Essential Hair Dryer 245,5,20,160.2,255.52,Active
+246,Classic Jacket 246,6,10,139.11,193.97,Discontinued
+247,Pro Doll 247,7,6,16.84,26.37,Active
+248,Advanced Car Vacuum 248,8,13,206.33,379.36,Active
+249,Smart Speaker 249,1,24,360.12,524.65,Active
+250,Wireless Coffee Maker 250,2,25,59.69,87.23,Active

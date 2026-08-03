@@ -1,0 +1,26 @@
+supplier_id,supplier_name,region_id,city,quality_score
+1,Murphy Supply Co.,2,Birmingham,0.907
+2,Thompson Supply Co.,3,Berlin,0.954
+3,Jansen Supply Co.,2,Leeds,0.883
+4,Taylor Supply Co.,2,Manchester,0.936
+5,Lopez Supply Co.,1,Cork,0.959
+6,Davies Supply Co.,7,Seattle,0.945
+7,Clark Supply Co.,1,Cork,0.957
+8,Wilson Supply Co.,6,Rotterdam,0.904
+9,Brown Supply Co.,6,Amsterdam,0.922
+10,Hall Supply Co.,6,Utrecht,0.946
+11,Thompson Supply Co.,1,Limerick,0.939
+12,Smith Supply Co.,7,Boston,0.912
+13,Jansen Supply Co.,6,Rotterdam,0.958
+14,Miller Supply Co.,1,Cork,0.965
+15,Hall Supply Co.,2,Manchester,0.975
+16,Wilson Supply Co.,7,Seattle,0.95
+17,Williams Supply Co.,6,Utrecht,0.919
+18,Anderson Supply Co.,5,Madrid,0.947
+19,Lopez Supply Co.,3,Munich,0.898
+20,Wilson Supply Co.,7,Boston,0.904
+21,Walker Supply Co.,6,Amsterdam,0.905
+22,White Supply Co.,1,Galway,0.924
+23,Taylor Supply Co.,2,Bristol,0.976
+24,Taylor Supply Co.,6,Eindhoven,0.924
+25,Jones Supply Co.,8,Montreal,0.895

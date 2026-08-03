@@ -1,0 +1,31 @@
+employee_id,first_name,last_name,email,department,job_title,region_id,hire_date,annual_salary
+1,Thomas,Johnson,thomas.johnson1@examplecorp.com,Finance,Specialist,3,2023-03-19,81443.87
+2,Oliver,Anderson,oliver.anderson2@examplecorp.com,Customer Success,Specialist,8,2018-06-01,38453.15
+3,Daniel,Young,daniel.young3@examplecorp.com,Customer Success,Executive,1,2021-07-16,58300.55
+4,Thomas,Lopez,thomas.lopez4@examplecorp.com,Sales,Specialist,8,2020-11-03,52022.21
+5,Julia,Clark,julia.clark5@examplecorp.com,Customer Success,Analyst,1,2021-09-21,80763.18
+6,Sophia,Young,sophia.young6@examplecorp.com,Finance,Manager,7,2022-12-07,90528.52
+7,Mia,Anderson,mia.anderson7@examplecorp.com,IT,Manager,8,2022-02-13,80864.29
+8,Laura,Bernard,laura.bernard8@examplecorp.com,IT,Specialist,2,2022-10-30,66546.57
+9,Emma,Brown,emma.brown9@examplecorp.com,Customer Success,Manager,2,2021-09-05,60971.28
+10,Michael,Bernard,michael.bernard10@examplecorp.com,Customer Success,Coordinator,3,2022-12-24,38371.89
+11,Julia,King,julia.king11@examplecorp.com,Customer Success,Analyst,6,2022-11-17,40202.31
+12,Sergey,Martin,sergey.martin12@examplecorp.com,Operations,Analyst,6,2023-10-03,43995.65
+13,Emily,Miller,emily.miller13@examplecorp.com,Operations,Analyst,8,2018-05-23,49215.74
+14,Sergey,Müller,sergey.müller14@examplecorp.com,IT,Analyst,6,2022-04-18,69885.31
+15,Anna,Dubois,anna.dubois15@examplecorp.com,Finance,Analyst,6,2022-03-04,68139.62
+16,Amelia,Müller,amelia.müller16@examplecorp.com,Customer Success,Specialist,7,2021-07-11,89789.12
+17,Liam,Thompson,liam.thompson17@examplecorp.com,IT,Coordinator,3,2023-08-07,87158.38
+18,James,Wilson,james.wilson18@examplecorp.com,Operations,Executive,5,2023-01-02,51992.31
+19,Natalie,Garcia,natalie.garcia19@examplecorp.com,Operations,Analyst,4,2019-05-18,61314.39
+20,Robert,Anderson,robert.anderson20@examplecorp.com,Customer Success,Manager,8,2018-12-26,75734.27
+21,Ella,Lopez,ella.lopez21@examplecorp.com,Operations,Specialist,5,2021-05-13,80447.0
+22,Amelia,Davies,amelia.davies22@examplecorp.com,Operations,Specialist,2,2020-04-03,80260.89
+23,Liam,Müller,liam.müller23@examplecorp.com,IT,Specialist,6,2023-03-30,70269.11
+24,Oliver,Smith,oliver.smith24@examplecorp.com,Finance,Executive,5,2022-06-19,59004.53
+25,Sophia,Walker,sophia.walker25@examplecorp.com,Customer Success,Analyst,2,2019-05-29,61198.57
+26,Anna,Martinez,anna.martinez26@examplecorp.com,IT,Executive,6,2019-06-10,46189.94
+27,Lucas,Bernard,lucas.bernard27@examplecorp.com,IT,Specialist,1,2019-05-24,53030.97
+28,Ethan,Schmidt,ethan.schmidt28@examplecorp.com,IT,Manager,4,2021-11-18,83372.29
+29,Jack,Taylor,jack.taylor29@examplecorp.com,Customer Success,Executive,5,2019-05-28,65874.77
+30,Amelia,Johnson,amelia.johnson30@examplecorp.com,IT,Specialist,3,2024-08-21,45587.23

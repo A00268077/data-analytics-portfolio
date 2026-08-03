@@ -1,0 +1,6 @@
+shipper_id,shipper_name,avg_delivery_days
+1,DHL,2.4
+2,UPS,2.8
+3,FedEx,2.7
+4,DPD,2.2
+5,An Post,3.1
