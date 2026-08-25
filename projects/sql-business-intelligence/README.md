@@ -108,6 +108,7 @@ sql-business-intelligence/
 ├── powerbi/
 ├── BUSINESS_REQUIREMENTS.md
 └── README.md
+'''
 
 ## Analysis Modules
 
@@ -117,5 +118,4 @@ The Sales Analysis module covers executive KPIs, revenue trends, profitability, 
 
 - SQL: `sql/01_sales_analysis.sql`
 - Documentation: `documentation/01_SALES_ANALYSIS.md`
-
 
