@@ -1,15 +1,60 @@
--- Update the path before running in psql.
+-- ============================================================
+-- SQL BUSINESS INTELLIGENCE PROJECT
+-- PostgreSQL data loading script
+-- ============================================================
+--
+-- Before running:
+-- 1. Open psql
+-- 2. Connect to the database:
+--      \c sql_business_intelligence
+--
+-- 3. Replace DATA_PATH below with your local project path.
+--
 -- Example:
--- \set data_path '/absolute/path/to/sql_business_intelligence_dataset'
+-- C:/Projects/data-analytics-portfolio/projects/
+-- sql-business-intelligence/data/raw/
+-- ============================================================
 
-\copy regions FROM :'data_path'/regions.csv CSV HEADER;
-\copy categories FROM :'data_path'/categories.csv CSV HEADER;
-\copy shippers FROM :'data_path'/shippers.csv CSV HEADER;
-\copy suppliers FROM :'data_path'/suppliers.csv CSV HEADER;
-\copy products FROM :'data_path'/products.csv CSV HEADER;
-\copy employees FROM :'data_path'/employees.csv CSV HEADER;
-\copy customers FROM :'data_path'/customers.csv CSV HEADER;
-\copy orders FROM :'data_path'/orders.csv CSV HEADER NULL '';
-\copy order_items FROM :'data_path'/order_items.csv CSV HEADER;
-\copy payments FROM :'data_path'/payments.csv CSV HEADER;
-\copy returns FROM :'data_path'/returns.csv CSV HEADER;
+\copy regions
+FROM 'DATA_PATH/regions.csv'
+CSV HEADER;
+
+\copy categories
+FROM 'DATA_PATH/categories.csv'
+CSV HEADER;
+
+\copy shippers
+FROM 'DATA_PATH/shippers.csv'
+CSV HEADER;
+
+\copy suppliers
+FROM 'DATA_PATH/suppliers.csv'
+CSV HEADER;
+
+\copy products
+FROM 'DATA_PATH/products.csv'
+CSV HEADER;
+
+\copy employees
+FROM 'DATA_PATH/employees.csv'
+CSV HEADER;
+
+\copy customers
+FROM 'DATA_PATH/customers.csv'
+CSV HEADER;
+
+\copy orders
+FROM 'DATA_PATH/orders.csv'
+CSV HEADER;
+
+\copy order_items
+FROM 'DATA_PATH/order_items.csv'
+CSV HEADER;
+
+\copy payments
+FROM 'DATA_PATH/payments.csv'
+CSV HEADER;
+
+\copy returns
+FROM 'DATA_PATH/returns.csv'
+CSV HEADER;
