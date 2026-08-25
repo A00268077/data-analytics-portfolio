@@ -194,9 +194,10 @@ The analysis includes:
 - Customer value tiers
 - Reporting-ready customer datasets
 
-**File:**
+**Files:**
 
 - SQL: `sql/02_customer_analysis.sql`
+- Documentation: `documentation/02_CUSTOMER_ANALYSIS.md`
 
 ---
 
