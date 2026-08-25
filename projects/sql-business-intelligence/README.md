@@ -199,6 +199,15 @@ The analysis includes:
 - SQL: `sql/02_customer_analysis.sql`
 - Documentation: `documentation/02_CUSTOMER_ANALYSIS.md`
 
+### 03. Product Analysis
+
+The Product Analysis module evaluates product and category performance using revenue, gross profit, margins, sales volume, returns, supplier contribution, discount impact, revenue concentration, and product value segmentation.
+
+The analysis combines commercial and operational KPIs to identify high-value products, underperforming SKUs, supplier exposure, return risk, and product portfolio opportunities.
+
+- SQL: `sql/03_product_analysis.sql`
+- Documentation: `documentation/03_PRODUCT_ANALYSIS.md`
+
 ---
 
 ## Power BI Integration
