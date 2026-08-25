@@ -1,0 +1,564 @@
+# Product Analysis Module
+
+## Overview
+
+This module analyses product and category performance, profitability, sales volume, returns, supplier contribution, discount impact, and product portfolio concentration using PostgreSQL.
+
+The SQL file `03_product_analysis.sql` transforms transactional order-level data into product-focused Business Intelligence metrics that can support pricing, assortment, supplier, profitability, and inventory-related decisions.
+
+Only **Completed** orders are treated as realised sales unless otherwise stated.
+
+The module combines product, category, supplier, order, order-item, region, and return data to provide a comprehensive view of product performance.
+
+---
+
+## Business Objectives
+
+This module answers the following business questions:
+
+- Which products generate the most revenue?
+- Which products generate the most gross profit?
+- Which products achieve the strongest gross margins?
+- Which products sell the most units?
+- Which products are underperforming?
+- Which categories generate the most revenue and profit?
+- How concentrated is revenue across product categories?
+- How dependent is the business on its top-selling products?
+- What percentage of revenue comes from the Top 20 products?
+- Which products have the highest return rates?
+- What return reasons affect different categories?
+- Which suppliers support the largest amount of revenue?
+- Which suppliers generate the greatest gross profit?
+- Which suppliers create the highest return exposure?
+- Which products are most affected by discounting?
+- What is the current product catalogue composition?
+- How can products be segmented into commercial value tiers?
+- How can product-level metrics be prepared for Power BI?
+
+---
+
+## Core Product Metrics
+
+The analysis evaluates products using several commercial and operational KPIs:
+
+- Revenue
+- Gross Profit
+- Gross Margin %
+- Units Sold
+- Completed Orders
+- Revenue Share %
+- Return Rate %
+- Refund Amount
+- Average Discount %
+- Estimated Discount Value
+- Supplier Quality Score
+- Product Value Tier
+
+These metrics allow product performance to be evaluated from multiple perspectives rather than relying on revenue alone.
+
+---
+
+## Key Business Insights
+
+### Product Revenue Performance
+
+Product-level revenue analysis identifies the products contributing the greatest amount of realised sales.
+
+The highest-performing products can be treated as strategically important SKUs because changes in their pricing, availability, supplier performance, or customer demand may have a disproportionate impact on company revenue.
+
+The analysis also identifies low-revenue products that may require additional investigation.
+
+Possible management actions include:
+
+- Promotional support
+- Pricing review
+- Assortment optimisation
+- Supplier review
+- Product repositioning
+- Discontinuation analysis
+
+---
+
+### Product Profitability
+
+Revenue alone does not determine product value.
+
+The gross-profit analysis compares product revenue against product cost:
+
+```text
+Gross Profit = Revenue - Product Cost
+```
+
+Gross margin is calculated as:
+
+```text
+Gross Margin % = Gross Profit / Revenue × 100
+```
+
+This allows management to distinguish between:
+
+- High-revenue / high-profit products
+- High-revenue / low-margin products
+- Lower-revenue / high-margin products
+- Low-value products
+
+Products generating high revenue but weak margins may require pricing or procurement review.
+
+---
+
+### Gross Margin Performance
+
+Products are ranked by gross margin percentage to identify products with the strongest profitability efficiency.
+
+A minimum sales-volume threshold is applied to prevent very low-volume products from appearing artificially attractive because of isolated transactions.
+
+This provides a more commercially meaningful profitability ranking.
+
+---
+
+### Sales Volume
+
+Units-sold analysis identifies products generating the greatest physical demand.
+
+High-volume products are operationally important even when they are not the highest-revenue products.
+
+These products may require additional attention in areas such as:
+
+- Inventory availability
+- Replenishment
+- Supplier reliability
+- Warehouse planning
+- Demand forecasting
+
+---
+
+### Category Performance
+
+Product performance is aggregated into categories using:
+
+- Product count
+- Completed orders
+- Units sold
+- Revenue
+- Gross profit
+- Gross margin
+
+The category analysis provides management with a higher-level view of the product portfolio.
+
+Based on the broader sales analysis, **Office** is the largest category by revenue, while **Sports & Outdoors** demonstrates particularly strong gross-margin performance.
+
+This illustrates why both revenue and profitability should be evaluated when prioritising categories.
+
+---
+
+### Category Revenue Concentration
+
+Revenue-share analysis calculates the percentage of total completed-order revenue generated by each category.
+
+This identifies whether the company is overly dependent on a small number of product groups.
+
+Category concentration is useful for:
+
+- Portfolio diversification
+- Strategic planning
+- Inventory allocation
+- Marketing investment
+- Risk management
+
+---
+
+## Product Revenue Concentration
+
+Each product's contribution to total revenue is calculated using SQL window functions.
+
+The analysis ranks products by revenue and calculates individual product revenue share.
+
+This helps determine whether revenue is concentrated among a small number of SKUs or distributed across a broader product portfolio.
+
+A highly concentrated portfolio may increase commercial risk if a leading product experiences:
+
+- Supply disruption
+- Price pressure
+- Competitor pressure
+- Quality issues
+- Demand decline
+
+---
+
+## Top 20 Product Contribution
+
+The Top 20 product analysis measures the combined revenue generated by the twenty highest-revenue products.
+
+The calculation compares:
+
+```text
+Top 20 Product Revenue
+```
+
+against:
+
+```text
+Total Completed-Order Revenue
+```
+
+to produce:
+
+```text
+Top 20 Revenue Share %
+```
+
+This KPI provides a concise measure of product concentration and can be included directly in an executive dashboard.
+
+---
+
+## Returns Analysis
+
+Returns are analysed at product level to identify products associated with unusually high return activity.
+
+The analysis combines completed sales with approved returns and calculates return-related indicators.
+
+Return analysis can reveal potential issues involving:
+
+- Product quality
+- Incorrect product descriptions
+- Customer expectations
+- Packaging
+- Fulfilment
+- Supplier quality
+
+Products with both high sales volume and high return rates should receive particular attention because they can create significant operational cost and customer dissatisfaction.
+
+---
+
+## Return Reasons
+
+Return reasons are analysed by product category.
+
+This provides more context than a simple return count because different categories may experience different operational problems.
+
+For example, a category may have high returns primarily because of product quality, while another may be affected by fulfilment or customer-expectation issues.
+
+This information can support targeted corrective actions rather than treating all returns as the same problem.
+
+---
+
+## Supplier Performance
+
+Supplier analysis links products back to their suppliers and measures commercial contribution using:
+
+- Number of products supplied
+- Units sold
+- Revenue
+- Gross profit
+- Gross margin
+- Supplier quality score
+
+This allows procurement and management teams to evaluate suppliers based not only on their catalogue size but also on the economic performance of the products they provide.
+
+---
+
+## Supplier Profitability
+
+Supplier portfolios are ranked by gross profit.
+
+This provides a stronger commercial measure than supplier revenue alone.
+
+A supplier generating significant revenue may still be less attractive if the associated product portfolio has weak margins.
+
+The analysis therefore supports supplier negotiations and sourcing decisions using profitability rather than sales volume alone.
+
+---
+
+## Supplier Return Exposure
+
+Approved product returns are also aggregated by supplier.
+
+This identifies suppliers associated with:
+
+- High return volumes
+- High refund values
+
+Combining supplier profitability and return exposure creates a more balanced supplier-performance view.
+
+A supplier generating strong revenue but excessive returns may require additional quality review.
+
+---
+
+## Discount Impact
+
+Discount analysis estimates the difference between gross product value before discounts and realised line revenue.
+
+The module calculates:
+
+- Average Discount %
+- Gross Value Before Discount
+- Net Revenue
+- Estimated Discount Value
+
+This helps identify products where discounting has the greatest financial impact.
+
+High discount exposure may be justified for strategic products, but persistent discount dependence can indicate:
+
+- Pricing problems
+- Weak demand
+- Excess inventory
+- Aggressive promotional strategy
+- Margin pressure
+
+---
+
+## Product Catalogue Status
+
+The product catalogue is analysed by product status.
+
+The analysis compares:
+
+- Number of products
+- Average list price
+- Average unit cost
+
+This creates a high-level view of catalogue composition and can help identify the relationship between active and discontinued products.
+
+Historical sales can still be retained for discontinued products, allowing past product performance to remain visible in BI reporting.
+
+---
+
+## Product Value Tiers
+
+Products are segmented into four commercial tiers using the PostgreSQL `NTILE()` window function.
+
+The tiers are:
+
+- Tier 1 - High Value
+- Tier 2 - Upper Mid Value
+- Tier 3 - Lower Mid Value
+- Tier 4 - Low Value
+
+Products are assigned to tiers according to revenue contribution.
+
+This segmentation creates a simple management framework for differentiating strategically important products from lower-value SKUs.
+
+Potential applications include:
+
+- Inventory prioritisation
+- Marketing allocation
+- Supplier management
+- Product portfolio review
+- Pricing strategy
+
+---
+
+## SQL Techniques Demonstrated
+
+This module demonstrates practical use of:
+
+- Multi-table `JOIN`s
+- `LEFT JOIN`
+- Aggregate functions
+- `GROUP BY`
+- `HAVING`
+- `CASE`
+- Common Table Expressions (CTEs)
+- `COALESCE`
+- `NULLIF`
+- PostgreSQL `FILTER`
+- `ROW_NUMBER()`
+- `NTILE()`
+- Window functions
+- Revenue-share calculations
+- Product ranking
+- Profitability analysis
+- Return-rate analysis
+- Supplier aggregation
+- Discount analysis
+- Reporting-ready datasets
+
+---
+
+## Query Structure
+
+The file contains the following analytical sections:
+
+1. Top 20 Products by Revenue
+2. Top 20 Products by Gross Profit
+3. Top Products by Gross Margin %
+4. Top 20 Products by Units Sold
+5. Lowest-Performing Products by Revenue
+6. Category Performance
+7. Category Revenue Share
+8. Product Revenue Concentration
+9. Top 20 Products Revenue Contribution
+10. Product Return Rate
+11. Return Reasons by Product Category
+12. Supplier Performance by Revenue
+13. Supplier Profitability
+14. Supplier Return Exposure
+15. Discount Impact by Product
+16. Product Catalogue Status
+17. Product Value Tiers
+18. Product BI Summary Dataset
+
+---
+
+## Power BI Integration
+
+The final query in `03_product_analysis.sql` creates a reporting-ready product-level dataset suitable for use as the foundation of a PostgreSQL view or Power BI semantic model.
+
+The dataset contains:
+
+- Product ID
+- Product Name
+- Category
+- Supplier ID
+- Supplier Name
+- Supplier Quality Score
+- Product Status
+- First Sale Date
+- Last Sale Date
+- Completed Orders
+- Units Sold
+- Revenue
+- Cost
+- Gross Profit
+- Gross Margin %
+- Average Discount %
+- Approved Returns
+- Refund Amount
+- Return-to-Order %
+
+This dataset can support Power BI visuals such as:
+
+- Product Revenue Ranking
+- Product Profitability Matrix
+- Category Performance
+- Revenue Share
+- Product Value Tiers
+- Supplier Performance
+- Return Analysis
+- Discount Impact
+- Product Detail Drill-Through
+
+---
+
+## Recommended Portfolio Screenshots
+
+The following query results are recommended for the GitHub portfolio.
+
+### Product Gross Profit
+
+**Query 02 — Top 20 Products by Gross Profit**
+
+```text
+screenshots/product-gross-profit.png
+```
+
+Demonstrates product-level profitability analysis and gross-margin calculations.
+
+### Category Performance
+
+**Query 06 — Category Performance**
+
+```text
+screenshots/category-performance.png
+```
+
+Demonstrates management-level comparison of categories using revenue, profit, margin, orders and units sold.
+
+### Product Return Rate
+
+**Query 10 — Product Return Rate**
+
+```text
+screenshots/product-return-rate.png
+```
+
+Demonstrates operational analysis combining sales and returns data.
+
+### Product Value Tiers
+
+**Query 17 — Product Value Tiers**
+
+```text
+screenshots/product-value-tiers.png
+```
+
+Demonstrates advanced SQL segmentation using the `NTILE()` window function.
+
+### Optional: Discount Impact
+
+**Query 15 — Discount Impact by Product**
+
+```text
+screenshots/product-discount-impact.png
+```
+
+Demonstrates pricing and promotional analysis.
+
+---
+
+## Project Structure
+
+```text
+sql-business-intelligence/
+│
+├── data/
+│   └── csv/
+│
+├── sql/
+│   ├── 00_schema.sql
+│   ├── 00_load_data_psql.sql
+│   ├── 01_sales_analysis.sql
+│   ├── 02_customer_analysis.sql
+│   └── 03_product_analysis.sql
+│
+├── documentation/
+│   ├── DATA_DICTIONARY.md
+│   ├── 01_SALES_ANALYSIS.md
+│   ├── 02_CUSTOMER_ANALYSIS.md
+│   └── 03_PRODUCT_ANALYSIS.md
+│
+├── screenshots/
+│   ├── product-gross-profit.png
+│   ├── category-performance.png
+│   ├── product-return-rate.png
+│   └── product-value-tiers.png
+│
+├── powerbi/
+│   └── README.md
+│
+├── BUSINESS_REQUIREMENTS.md
+└── README.md
+```
+
+---
+
+## File Location
+
+```text
+projects/sql-business-intelligence/sql/03_product_analysis.sql
+```
+
+## Related Documentation
+
+```text
+projects/sql-business-intelligence/documentation/03_PRODUCT_ANALYSIS.md
+```
+
+---
+
+## Business Value
+
+This module demonstrates how SQL can move beyond simple sales reporting and support product-management decisions.
+
+By combining revenue, cost, profitability, volume, discounts, returns, suppliers and product segmentation, the analysis provides a multidimensional view of product performance.
+
+The resulting metrics can support decisions related to:
+
+- Product assortment
+- Pricing
+- Promotions
+- Supplier management
+- Quality control
+- Portfolio optimisation
+- Profitability improvement
+- Power BI reporting
