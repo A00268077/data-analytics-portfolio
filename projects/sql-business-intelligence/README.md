@@ -206,7 +206,16 @@ The analysis combines financial and fulfilment KPIs to identify payment issues, 
 
 - SQL: `sql/04_operations_analysis.sql`
 - Documentation: `documentation/04_OPERATIONS_ANALYSIS.md`
-  
+
+### 05. RFM Customer Segmentation
+
+The RFM Customer Segmentation module evaluates customer Recency, Frequency, and Monetary value to create actionable behavioural customer segments.
+
+The analysis identifies Champions, Loyal Customers, Potential Loyalists, At Risk customers, Hibernating customers, and Lost customers, while also measuring segment size, revenue contribution, geographic distribution, and commercial priority.
+
+- SQL: `sql/05_rfm_segmentation.sql`
+- Documentation: `documentation/05_RFM_SEGMENTATION.md`
+   
 ---
 
 ## Power BI Integration
