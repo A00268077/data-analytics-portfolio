@@ -136,14 +136,16 @@ sql-business-intelligence/
 │   ├── 01_sales_analysis.sql
 │   ├── 02_customer_analysis.sql
 │   ├── 03_product_analysis.sql
-│   └── 04_operations_analysis.sql
+│   ├── 04_operations_analysis.sql
+│   └── 05_rfm_segmentation.sql
 │
 ├── documentation/
 │   ├── DATA_DICTIONARY.md
 │   ├── 01_SALES_ANALYSIS.md
 │   ├── 02_CUSTOMER_ANALYSIS.md
 │   ├── 03_PRODUCT_ANALYSIS.md
-│   └── 04_OPERATIONS_ANALYSIS.md
+│   ├── 04_OPERATIONS_ANALYSIS.md
+│   └── 05_RFM_SEGMENTATION.md
 ```
 
 ---
