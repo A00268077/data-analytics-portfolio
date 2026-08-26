@@ -208,6 +208,15 @@ The analysis combines commercial and operational KPIs to identify high-value pro
 - SQL: `sql/03_product_analysis.sql`
 - Documentation: `documentation/03_PRODUCT_ANALYSIS.md`
 
+### 04. Operations Analysis
+
+The Operations Analysis module evaluates payment performance, returns, refunds, shipping and delivery efficiency, order cancellations, and operational service quality.
+
+The analysis combines financial and fulfilment KPIs to identify payment issues, return drivers, delivery bottlenecks, cancellation exposure, and operational improvement opportunities.
+
+- SQL: `sql/04_operations_analysis.sql`
+- Documentation: `documentation/04_OPERATIONS_ANALYSIS.md`
+  
 ---
 
 ## Power BI Integration
