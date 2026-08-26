@@ -130,30 +130,20 @@ The project demonstrates practical use of:
 ```text
 sql-business-intelligence/
 │
-├── data/
-│   └── csv/
-│
 ├── sql/
 │   ├── 00_schema.sql
 │   ├── 00_load_data_psql.sql
 │   ├── 01_sales_analysis.sql
-│   └── 02_customer_analysis.sql
+│   ├── 02_customer_analysis.sql
+│   ├── 03_product_analysis.sql
+│   └── 04_operations_analysis.sql
 │
 ├── documentation/
 │   ├── DATA_DICTIONARY.md
-│   └── 01_SALES_ANALYSIS.md
-│
-├── screenshots/
-│   ├── README.md
-│   ├── database-schema.png
-│   ├── executive-kpis.png
-│   └── advanced-sql-analysis.png
-│
-├── powerbi/
-│   └── README.md
-│
-├── BUSINESS_REQUIREMENTS.md
-└── README.md
+│   ├── 01_SALES_ANALYSIS.md
+│   ├── 02_CUSTOMER_ANALYSIS.md
+│   ├── 03_PRODUCT_ANALYSIS.md
+│   └── 04_OPERATIONS_ANALYSIS.md
 ```
 
 ---
