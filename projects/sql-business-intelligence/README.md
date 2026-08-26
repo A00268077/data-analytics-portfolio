@@ -137,7 +137,8 @@ sql-business-intelligence/
 │   ├── 02_customer_analysis.sql
 │   ├── 03_product_analysis.sql
 │   ├── 04_operations_analysis.sql
-│   └── 05_rfm_segmentation.sql
+│   ├── 05_rfm_segmentation.sql
+│   └── 06_views_and_reporting_layer.sql
 │
 ├── documentation/
 │   ├── DATA_DICTIONARY.md
@@ -145,7 +146,8 @@ sql-business-intelligence/
 │   ├── 02_CUSTOMER_ANALYSIS.md
 │   ├── 03_PRODUCT_ANALYSIS.md
 │   ├── 04_OPERATIONS_ANALYSIS.md
-│   └── 05_RFM_SEGMENTATION.md
+│   ├── 05_RFM_SEGMENTATION.md
+│   └── 06_VIEWS_AND_REPORTING_LAYER.md
 ```
 
 ---
@@ -217,7 +219,17 @@ The analysis identifies Champions, Loyal Customers, Potential Loyalists, At Risk
 
 - SQL: `sql/05_rfm_segmentation.sql`
 - Documentation: `documentation/05_RFM_SEGMENTATION.md`
-   
+
+### 06. SQL Views & Reporting Layer
+
+The Reporting Layer module converts repeated analytical SQL logic into reusable PostgreSQL views designed for direct Business Intelligence consumption.
+
+The views provide reporting-ready datasets for executive KPIs, sales trends, customer analytics, product performance, operational KPIs, RFM segmentation, geographic analysis, and transaction-level drill-through.
+
+This creates a clear architecture between transactional source tables and Power BI reporting.
+
+- SQL: `sql/06_views_and_reporting_layer.sql`
+- Documentation: `documentation/06_VIEWS_AND_REPORTING_LAYER.md`
 ---
 
 ## Power BI Integration
