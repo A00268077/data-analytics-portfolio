@@ -138,7 +138,8 @@ sql-business-intelligence/
 │   ├── 03_product_analysis.sql
 │   ├── 04_operations_analysis.sql
 │   ├── 05_rfm_segmentation.sql
-│   └── 06_views_and_reporting_layer.sql
+│   ├── 06_views_and_reporting_layer.sql
+│   └── 07_query_optimization.sql
 │
 ├── documentation/
 │   ├── DATA_DICTIONARY.md
@@ -147,7 +148,8 @@ sql-business-intelligence/
 │   ├── 03_PRODUCT_ANALYSIS.md
 │   ├── 04_OPERATIONS_ANALYSIS.md
 │   ├── 05_RFM_SEGMENTATION.md
-│   └── 06_VIEWS_AND_REPORTING_LAYER.md
+│   ├── 06_VIEWS_AND_REPORTING_LAYER.md
+│   └── 07_QUERY_OPTIMIZATION.md
 ```
 
 ---
@@ -230,6 +232,19 @@ This creates a clear architecture between transactional source tables and Power 
 
 - SQL: `sql/06_views_and_reporting_layer.sql`
 - Documentation: `documentation/06_VIEWS_AND_REPORTING_LAYER.md`
+
+### 07. Query Optimization & Performance Analysis
+
+The Query Optimization module evaluates PostgreSQL execution plans using `EXPLAIN ANALYZE`, `BUFFERS`, planner statistics, and index-usage metrics.
+
+The module demonstrates a structured before-and-after optimization workflow using composite and partial indexes for recurring Business Intelligence access patterns.
+
+It also evaluates index usage, sequential scans, reporting-view performance, database size, and index storage overhead.
+
+- SQL: `sql/07_query_optimization.sql`
+- Documentation: `documentation/07_QUERY_OPTIMIZATION.md`
+
+  
 ---
 
 ## Power BI Integration
